@@ -1,0 +1,554 @@
+<?xml version="1.0"?>
+<JukeboxPatch version="1.0" >
+    <DeviceNameInEnglish>
+        Rumble K2 Builder
+    </DeviceNameInEnglish>
+    <Properties deviceProductID="nl.oenkenstein.RK2B"  deviceVersion="1.0.9" >
+        <Object name="custom_properties" >
+            <Value property="Sample_Select"  type="number" >
+                73
+            </Value>
+            <Value property="Wave_Osc_On_Off"  type="boolean" >
+                true
+            </Value>
+            <Value property="Wave_Osc_Volume"  type="number" >
+                0.3799998760223388671875
+            </Value>
+            <Value property="Wave_Osc_Tune"  type="number" >
+                0.5
+            </Value>
+            <Value property="Fine_Tune"  type="number" >
+                0.5
+            </Value>
+            <Value property="Key_Track"  type="number" >
+                0.6563999652862548828125
+            </Value>
+            <Value property="Sine_Osc_On_Off"  type="boolean" >
+                true
+            </Value>
+            <Value property="Sine_Osc_Level"  type="number" >
+                0
+            </Value>
+            <Value property="Sine_Osc_Tune_Semitones"  type="number" >
+                36
+            </Value>
+            <Value property="Sine_Osc_Tune"  type="number" >
+                53
+            </Value>
+            <Value property="Sine_Osc_Key_Track_On_Off"  type="boolean" >
+                true
+            </Value>
+            <Value property="Sine_Osc_AM_On_Off"  type="boolean" >
+                false
+            </Value>
+            <Value property="Sine_Osc_Mod_On_Off"  type="boolean" >
+                false
+            </Value>
+            <Value property="Sine_Osc_Mod_Source"  type="number" >
+                1
+            </Value>
+            <Value property="Sine_Osc_Mod_Destination"  type="number" >
+                0
+            </Value>
+            <Value property="Sine_Osc_Mod_Amount"  type="number" >
+                0.4849998950958251953125
+            </Value>
+            <Value property="Saw_Osc_On_Off"  type="boolean" >
+                false
+            </Value>
+            <Value property="Saw_Osc_Level"  type="number" >
+                0.5
+            </Value>
+            <Value property="Saw_Square_Osc_Tune_Semitones"  type="number" >
+                36
+            </Value>
+            <Value property="Saw_Square_Osc_Tune"  type="number" >
+                50
+            </Value>
+            <Value property="Saw_Square_Oscillator_Amount"  type="number" >
+                3
+            </Value>
+            <Value property="Saw_Square_Osc_Detune"  type="number" >
+                0
+            </Value>
+            <Value property="Square_Osc_Level"  type="number" >
+                0.5
+            </Value>
+            <Value property="Saw_Square_Osc_Mod_On_Off_1"  type="boolean" >
+                false
+            </Value>
+            <Value property="Saw_Square_Osc_Mod_Source_1"  type="number" >
+                1
+            </Value>
+            <Value property="Saw_Square_Osc_Mod_Destination_1"  type="number" >
+                0
+            </Value>
+            <Value property="Saw_Square_Osc_Mod_Amount_1"  type="number" >
+                0.4849998950958251953125
+            </Value>
+            <Value property="Saw_Square_Osc_Mod_On_Off_2"  type="boolean" >
+                true
+            </Value>
+            <Value property="Saw_Square_Osc_Mod_Source_2"  type="number" >
+                7
+            </Value>
+            <Value property="Saw_Square_Osc_Mod_Destination_2"  type="number" >
+                3
+            </Value>
+            <Value property="Saw_Square_Osc_Mod_Amount_2"  type="number" >
+                1
+            </Value>
+            <Value property="Shaper_On_Off"  type="boolean" >
+                false
+            </Value>
+            <Value property="Shaper_Drive"  type="number" >
+                5
+            </Value>
+            <Value property="Envelope_Amount"  type="number" >
+                1
+            </Value>
+            <Value property="Envelope_Delay"  type="number" >
+                0
+            </Value>
+            <Value property="Envelope_Delay_Time"  type="number" >
+                0
+            </Value>
+            <Value property="Envelope_Attack"  type="number" >
+                0
+            </Value>
+            <Value property="Envelope_Attack_Curve"  type="number" >
+                0.5
+            </Value>
+            <Value property="Envelope_Hold"  type="number" >
+                0
+            </Value>
+            <Value property="Envelope_Decay"  type="number" >
+                0
+            </Value>
+            <Value property="Envelope_Decay_Curve"  type="number" >
+                0.5
+            </Value>
+            <Value property="Envelope_Sustain"  type="number" >
+                1
+            </Value>
+            <Value property="Envelope_Release"  type="number" >
+                10
+            </Value>
+            <Value property="Envelope_Release_Timer"  type="number" >
+                0
+            </Value>
+            <Value property="Level_Mod_Vel_On_Off"  type="boolean" >
+                true
+            </Value>
+            <Value property="Level_Mod_Vel_Source"  type="number" >
+                19
+            </Value>
+            <Value property="Level_Mod_Vel_Destination"  type="number" >
+                0
+            </Value>
+            <Value property="Level_Mod_Vel_Amount"  type="number" >
+                0.5
+            </Value>
+            <Value property="Level_Mod_Prs_On_Off"  type="boolean" >
+                true
+            </Value>
+            <Value property="Level_Mod_Prs_Source"  type="number" >
+                4
+            </Value>
+            <Value property="Level_Mod_Prs_Destination"  type="number" >
+                0
+            </Value>
+            <Value property="Level_Mod_Prs_Amount"  type="number" >
+                0.5
+            </Value>
+            <Value property="Level_Mod_KS_On_Off"  type="boolean" >
+                true
+            </Value>
+            <Value property="Level_Mod_KS_Source"  type="number" >
+                6
+            </Value>
+            <Value property="Level_Mod_KS_Destination"  type="number" >
+                2
+            </Value>
+            <Value property="Level_Mod_KS_Amount"  type="number" >
+                0.6162109375
+            </Value>
+            <Value property="Time_Mod_Vel_Attack_On_Off"  type="boolean" >
+                true
+            </Value>
+            <Value property="Time_Mod_Vel_Attack_Source"  type="number" >
+                19
+            </Value>
+            <Value property="Time_Mod_Vel_Attack_Destination"  type="number" >
+                2
+            </Value>
+            <Value property="Time_Mod_Vel_Attack_Amount"  type="number" >
+                0
+            </Value>
+            <Value property="Time_Mod_KS_On_Off"  type="boolean" >
+                true
+            </Value>
+            <Value property="Time_Mod_KS_Source"  type="number" >
+                14
+            </Value>
+            <Value property="Time_Mod_KS_Destination"  type="number" >
+                0
+            </Value>
+            <Value property="Time_Mod_KS_Amount"  type="number" >
+                0.5
+            </Value>
+            <Value property="Vibrato_On_Off"  type="boolean" >
+                true
+            </Value>
+            <Value property="Vibrato_Wheel_On_Off"  type="boolean" >
+                true
+            </Value>
+            <Value property="Vibrato_Depth"  type="number" >
+                1
+            </Value>
+            <Value property="Vibrato_Shape"  type="number" >
+                2
+            </Value>
+            <Value property="Vibrato_Curve_On_Off"  type="boolean" >
+                false
+            </Value>
+            <Value property="Vibrato_Speed"  type="number" >
+                50
+            </Value>
+            <Value property="Vibrato_Prs_To_Depth"  type="number" >
+                0.5
+            </Value>
+            <Value property="Vibrato_Wheel_Destination"  type="number" >
+                0
+            </Value>
+            <Value property="Auto_Bend_On_Off"  type="boolean" >
+                false
+            </Value>
+            <Value property="Auto_Bend_Depth"  type="number" >
+                0
+            </Value>
+            <Value property="Auto_Bend_Vel_To_Depth"  type="number" >
+                0.5
+            </Value>
+            <Value property="Auto_Bend_Time"  type="number" >
+                50
+            </Value>
+            <Value property="Auto_Bend_KS_To_Time"  type="number" >
+                0.5
+            </Value>
+            <Value property="Auto_Bend_Mod_Vel_On_Off"  type="boolean" >
+                true
+            </Value>
+            <Value property="Auto_Bend_Mod_Vel_Source"  type="number" >
+                19
+            </Value>
+            <Value property="Auto_Bend_Mod_Vel_Destination"  type="number" >
+                0
+            </Value>
+            <Value property="Auto_Bend_Mod_Vel_Amount"  type="number" >
+                0.5
+            </Value>
+            <Value property="Auto_Bend_Mod_KS_On_Off"  type="boolean" >
+                true
+            </Value>
+            <Value property="Auto_Bend_Mod_KS_Source"  type="number" >
+                14
+            </Value>
+            <Value property="Auto_Bend_Mod_KS_Destination"  type="number" >
+                4
+            </Value>
+            <Value property="Auto_Bend_Mod_KS_Amount"  type="number" >
+                0.5
+            </Value>
+            <Value property="Prs_To_Freq_On_Off"  type="boolean" >
+                true
+            </Value>
+            <Value property="Prs_To_Freq"  type="number" >
+                0.5
+            </Value>
+            <Value property="Prs_Destination"  type="number" >
+                2
+            </Value>
+            <Value property="Pitch_Wheel_Amount"  type="number" >
+                41
+            </Value>
+            <Value property="Pitch_Wheel_Mod_Destination"  type="number" >
+                2
+            </Value>
+            <Value property="KS_to_Freq"  type="number" >
+                0.5
+            </Value>
+            <Value property="Coarse"  type="number" >
+                60
+            </Value>
+            <Value property="Octave"  type="number" >
+                3
+            </Value>
+            <Value property="Filter_On_Off"  type="boolean" >
+                true
+            </Value>
+            <Value property="Filter_Cutoff"  type="number" >
+                100
+            </Value>
+            <Value property="Filter_Resonance"  type="number" >
+                0.460999965667724609375
+            </Value>
+            <Value property="Filter_Envelope"  type="number" >
+                0.5000998973846435546875
+            </Value>
+            <Value property="Filter_Attack"  type="number" >
+                0
+            </Value>
+            <Value property="Filter_Hold"  type="number" >
+                0
+            </Value>
+            <Value property="Filter_Decay"  type="number" >
+                100
+            </Value>
+            <Value property="Filter_Sustain"  type="number" >
+                0
+            </Value>
+            <Value property="Filter_Release"  type="number" >
+                25
+            </Value>
+            <Value property="Filter_Mod_On_Off"  type="boolean" >
+                true
+            </Value>
+            <Value property="Filter_Mod_Source"  type="number" >
+                12
+            </Value>
+            <Value property="Filter_Mod_Destination"  type="number" >
+                0
+            </Value>
+            <Value property="Filter_Mod_Amount"  type="number" >
+                0.5
+            </Value>
+            <Value property="Rotary_On_Off"  type="boolean" >
+                false
+            </Value>
+            <Value property="Rotary_Speed"  type="number" >
+                2
+            </Value>
+            <Value property="Rotary_Horn_Acceleration"  type="number" >
+                0.599999904632568359375
+            </Value>
+            <Value property="Rotary_Horn_Slow"  type="number" >
+                50
+            </Value>
+            <Value property="Rotary_Horn_Fast"  type="number" >
+                94
+            </Value>
+            <Value property="Rotary_Horn_Amp_Mod"  type="number" >
+                0.5
+            </Value>
+            <Value property="Rotary_Bass_Acceleration"  type="number" >
+                0.25
+            </Value>
+            <Value property="Rotary_Bass_Slow"  type="number" >
+                55
+            </Value>
+            <Value property="Rotary_Bass_Fast"  type="number" >
+                91
+            </Value>
+            <Value property="Rotary_Bass_Amp_Mod"  type="number" >
+                0.5
+            </Value>
+            <Value property="Rotary_Horn_Freq_Mod"  type="number" >
+                0.5
+            </Value>
+            <Value property="Rotary_Crossover"  type="number" >
+                50
+            </Value>
+            <Value property="Rotary_Balance"  type="number" >
+                0.5
+            </Value>
+            <Value property="Rotary_Mic_Angle"  type="number" >
+                50
+            </Value>
+            <Value property="Delay_On_Off"  type="boolean" >
+                false
+            </Value>
+            <Value property="Delay_Time"  type="number" >
+                50
+            </Value>
+            <Value property="Delay_Feedback"  type="number" >
+                0.4949493408203125
+            </Value>
+            <Value property="Delay_Feedback_Mode"  type="number" >
+                0
+            </Value>
+            <Value property="Delay_Ratio"  type="number" >
+                59
+            </Value>
+            <Value property="Delay_Damping"  type="number" >
+                1
+            </Value>
+            <Value property="Delay_Mix"  type="number" >
+                0.5
+            </Value>
+            <Value property="EQ_On_Off"  type="boolean" >
+                false
+            </Value>
+            <Value property="EQ_Mode"  type="number" >
+                4
+            </Value>
+            <Value property="EQ_Cutoff"  type="number" >
+                50
+            </Value>
+            <Value property="EQ_Resonance"  type="number" >
+                0
+            </Value>
+            <Value property="Reverb_On_Off"  type="boolean" >
+                false
+            </Value>
+            <Value property="Reverb_Time"  type="number" >
+                0.5
+            </Value>
+            <Value property="Reverb_Pre_Delay"  type="number" >
+                28
+            </Value>
+            <Value property="Reverb_Low_Cut"  type="number" >
+                0
+            </Value>
+            <Value property="Reverb_High_Cut"  type="number" >
+                0
+            </Value>
+            <Value property="Reverb_Damping"  type="number" >
+                0
+            </Value>
+            <Value property="Reverb_Mix"  type="number" >
+                0.1499998569488525390625
+            </Value>
+            <Value property="Phaser_On_Off"  type="boolean" >
+                false
+            </Value>
+            <Value property="Phaser_Rate"  type="number" >
+                50
+            </Value>
+            <Value property="Phaser_Depth"  type="number" >
+                0.5
+            </Value>
+            <Value property="Phaser_Feedback"  type="number" >
+                0.5
+            </Value>
+            <Value property="Phaser_Center"  type="number" >
+                50
+            </Value>
+            <Value property="Phaser_Spread"  type="number" >
+                0.5
+            </Value>
+            <Value property="Phaser_Mix"  type="number" >
+                0.5
+            </Value>
+            <Value property="Lofi_On_Off"  type="boolean" >
+                false
+            </Value>
+            <Value property="Lofi_Sample_Rate"  type="number" >
+                50
+            </Value>
+            <Value property="Lofi_Jitter"  type="number" >
+                0
+            </Value>
+            <Value property="Lofi_Mix"  type="number" >
+                1
+            </Value>
+            <Value property="Chorus_On_Off"  type="boolean" >
+                false
+            </Value>
+            <Value property="Chorus_Rate"  type="number" >
+                50
+            </Value>
+            <Value property="Chorus_Depth"  type="number" >
+                50
+            </Value>
+            <Value property="Chorus_Delay"  type="number" >
+                50
+            </Value>
+            <Value property="Chorus_Voices_Amount"  type="number" >
+                2
+            </Value>
+            <Value property="Chorus_Mix"  type="number" >
+                0.5
+            </Value>
+            <Value property="Volume"  type="number" >
+                0.5
+            </Value>
+            <Value property="Pan"  type="number" >
+                50
+            </Value>
+            <Value property="Key_Pan_On_Off"  type="boolean" >
+                false
+            </Value>
+            <Value property="Limiter_On_Off"  type="boolean" >
+                false
+            </Value>
+            <Value property="Limiter_Mode"  type="number" >
+                0
+            </Value>
+            <Value property="Limiter_Release_Time"  type="number" >
+                0
+            </Value>
+            <Value property="Poly_Mode_On_Off"  type="boolean" >
+                true
+            </Value>
+            <Value property="HF_Correction_On_Off"  type="boolean" >
+                true
+            </Value>
+            <Value property="Sustain_Pedal_Mode"  type="number" >
+                1
+            </Value>
+            <Value property="Glide_Mode"  type="number" >
+                0
+            </Value>
+            <Value property="Glide_Time"  type="number" >
+                0
+            </Value>
+            <Value property="Glide_Mod_On_Off"  type="boolean" >
+                true
+            </Value>
+            <Value property="Glide_Mod_Source"  type="number" >
+                1
+            </Value>
+            <Value property="Glide_Mod_Destination"  type="number" >
+                0
+            </Value>
+            <Value property="Glide_Mod_Amount"  type="number" >
+                0
+            </Value>
+            <Value property="KS_Curve_1_Mod_On_Off"  type="boolean" >
+                true
+            </Value>
+            <Value property="KS_Curve_1_Mod_Source"  type="number" >
+                1
+            </Value>
+            <Value property="KS_Curve_1_Mod_Destination"  type="number" >
+                0
+            </Value>
+            <Value property="KS_Curve_1_Mod_Amount"  type="number" >
+                0.5
+            </Value>
+            <Value property="Delay_Dry"  type="number" >
+                0.6309568881988525390625
+            </Value>
+            <Value property="Delay_Wet"  type="number" >
+                0.6309568881988525390625
+            </Value>
+            <Value property="Reverb_Dry"  type="number" >
+                0.6309568881988525390625
+            </Value>
+            <Value property="Reverb_Wet"  type="number" >
+                0.6309568881988525390625
+            </Value>
+            <Value property="Chorus_Dry"  type="number" >
+                0.6309568881988525390625
+            </Value>
+            <Value property="Chorus_Wet"  type="number" >
+                0.6309568881988525390625
+            </Value>
+            <Value property="blob_to_load"  type="number" >
+                1
+            </Value>
+        </Object>
+        <Object name="transport" />
+    </Properties>
+</JukeboxPatch>

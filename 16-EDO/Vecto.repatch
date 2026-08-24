@@ -1,0 +1,1520 @@
+<?xml version="1.0"?>
+<JukeboxPatch version="2.0"  deviceProductID="com.robpapen.Vecto"  deviceVersion="1.0.9" >
+    <DeviceNameInEnglish>
+        Vecto Instrument
+    </DeviceNameInEnglish>
+    <Properties>
+        <Object name="custom_properties" >
+            <Value property="Osc1On"  type="boolean" >
+                true
+            </Value>
+            <Value property="Osc1Free"  type="boolean" >
+                false
+            </Value>
+            <Value property="Osc1Track"  type="boolean" >
+                true
+            </Value>
+            <Value property="Osc1Rev"  type="boolean" >
+                false
+            </Value>
+            <Value property="Osc1VolInvEnv"  type="boolean" >
+                false
+            </Value>
+            <Value property="Osc1Type"  type="number" >
+                0
+            </Value>
+            <Value property="Osc1SubType_Analogue"  type="number" >
+                1
+            </Value>
+            <Value property="Osc1SubType_Additive1"  type="number" >
+                0
+            </Value>
+            <Value property="Osc1SubType_Additive2"  type="number" >
+                0
+            </Value>
+            <Value property="Osc1SubType_Additive3"  type="number" >
+                0
+            </Value>
+            <Value property="Osc1SubType_Spectral1"  type="number" >
+                0
+            </Value>
+            <Value property="Osc1SubType_Spectral2"  type="number" >
+                0
+            </Value>
+            <Value property="Osc1SubType_Sample1"  type="number" >
+                0
+            </Value>
+            <Value property="Osc1SubType_Sample2"  type="number" >
+                0
+            </Value>
+            <Value property="Osc1SubType_Sample3"  type="number" >
+                0
+            </Value>
+            <Value property="Osc1SubType_Sample4"  type="number" >
+                0
+            </Value>
+            <Value property="Osc1SubType_Sample5"  type="number" >
+                0
+            </Value>
+            <Value property="Osc1SubType_Sample6"  type="number" >
+                0
+            </Value>
+            <Value property="Osc1SubType_Sample7"  type="number" >
+                0
+            </Value>
+            <Value property="Osc1SubType_Sample8"  type="number" >
+                0
+            </Value>
+            <Value property="Osc1SubType_Sample9"  type="number" >
+                0
+            </Value>
+            <Value property="Osc1SubType_Sample10"  type="number" >
+                0
+            </Value>
+            <Value property="Osc1SubType_Sample11"  type="number" >
+                0
+            </Value>
+            <Value property="Osc1SubType_BigSample"  type="number" >
+                0
+            </Value>
+            <Value property="Osc1SubType_TunedPerc"  type="number" >
+                0
+            </Value>
+            <Value property="Osc1SubType_Perc1"  type="number" >
+                0
+            </Value>
+            <Value property="Osc1SubType_Perc2"  type="number" >
+                0
+            </Value>
+            <Value property="Osc1SubType_Perc3"  type="number" >
+                0
+            </Value>
+            <Value property="Osc1SubType_Perc4"  type="number" >
+                0
+            </Value>
+            <Value property="Osc1SubType_Perc5"  type="number" >
+                0
+            </Value>
+            <Value property="Osc1Delay"  type="number" >
+                0
+            </Value>
+            <Value property="Osc1Retrig"  type="number" >
+                0
+            </Value>
+            <Value property="Osc1Route"  type="number" >
+                0
+            </Value>
+            <Value property="Osc1VolEnv"  type="number" >
+                0
+            </Value>
+            <Value property="Osc1Oct"  type="number" >
+                4
+            </Value>
+            <Value property="Osc1Semi"  type="number" >
+                48
+            </Value>
+            <Value property="Osc1Fine"  type="number" >
+                0.5
+            </Value>
+            <Value property="Osc1Spread"  type="number" >
+                0
+            </Value>
+            <Value property="Osc1Sub"  type="number" >
+                0.5
+            </Value>
+            <Value property="Osc1Drift"  type="number" >
+                0.19999980926513671875
+            </Value>
+            <Value property="Osc1SMA"  type="number" >
+                0
+            </Value>
+            <Value property="Osc1Speed"  type="number" >
+                0
+            </Value>
+            <Value property="Osc1Sym"  type="number" >
+                0.5
+            </Value>
+            <Value property="Osc1Pan"  type="number" >
+                0.5
+            </Value>
+            <Value property="Osc1Volume"  type="number" >
+                0.75
+            </Value>
+            <Value property="Osc2On"  type="boolean" >
+                false
+            </Value>
+            <Value property="Osc2Free"  type="boolean" >
+                false
+            </Value>
+            <Value property="Osc2Track"  type="boolean" >
+                true
+            </Value>
+            <Value property="Osc2Sync"  type="boolean" >
+                false
+            </Value>
+            <Value property="Osc2Rev"  type="boolean" >
+                false
+            </Value>
+            <Value property="Osc2VolInvEnv"  type="boolean" >
+                false
+            </Value>
+            <Value property="Osc2Type"  type="number" >
+                0
+            </Value>
+            <Value property="Osc2SubType_Analogue"  type="number" >
+                0
+            </Value>
+            <Value property="Osc2SubType_Additive1"  type="number" >
+                0
+            </Value>
+            <Value property="Osc2SubType_Additive2"  type="number" >
+                0
+            </Value>
+            <Value property="Osc2SubType_Additive3"  type="number" >
+                0
+            </Value>
+            <Value property="Osc2SubType_Spectral1"  type="number" >
+                0
+            </Value>
+            <Value property="Osc2SubType_Spectral2"  type="number" >
+                0
+            </Value>
+            <Value property="Osc2SubType_Sample1"  type="number" >
+                0
+            </Value>
+            <Value property="Osc2SubType_Sample2"  type="number" >
+                0
+            </Value>
+            <Value property="Osc2SubType_Sample3"  type="number" >
+                0
+            </Value>
+            <Value property="Osc2SubType_Sample4"  type="number" >
+                0
+            </Value>
+            <Value property="Osc2SubType_Sample5"  type="number" >
+                0
+            </Value>
+            <Value property="Osc2SubType_Sample6"  type="number" >
+                0
+            </Value>
+            <Value property="Osc2SubType_Sample7"  type="number" >
+                0
+            </Value>
+            <Value property="Osc2SubType_Sample8"  type="number" >
+                0
+            </Value>
+            <Value property="Osc2SubType_Sample9"  type="number" >
+                0
+            </Value>
+            <Value property="Osc2SubType_Sample10"  type="number" >
+                0
+            </Value>
+            <Value property="Osc2SubType_Sample11"  type="number" >
+                0
+            </Value>
+            <Value property="Osc2SubType_BigSample"  type="number" >
+                0
+            </Value>
+            <Value property="Osc2SubType_TunedPerc"  type="number" >
+                0
+            </Value>
+            <Value property="Osc2SubType_Perc1"  type="number" >
+                0
+            </Value>
+            <Value property="Osc2SubType_Perc2"  type="number" >
+                0
+            </Value>
+            <Value property="Osc2SubType_Perc3"  type="number" >
+                0
+            </Value>
+            <Value property="Osc2SubType_Perc4"  type="number" >
+                0
+            </Value>
+            <Value property="Osc2SubType_Perc5"  type="number" >
+                0
+            </Value>
+            <Value property="Osc2Delay"  type="number" >
+                0
+            </Value>
+            <Value property="Osc2Retrig"  type="number" >
+                0
+            </Value>
+            <Value property="Osc2Route"  type="number" >
+                0
+            </Value>
+            <Value property="Osc2VolEnv"  type="number" >
+                0
+            </Value>
+            <Value property="Osc2Oct"  type="number" >
+                4
+            </Value>
+            <Value property="Osc2Semi"  type="number" >
+                48
+            </Value>
+            <Value property="Osc2Fine"  type="number" >
+                0.5
+            </Value>
+            <Value property="Osc2Spread"  type="number" >
+                0
+            </Value>
+            <Value property="Osc2Sub"  type="number" >
+                0.5
+            </Value>
+            <Value property="Osc2Drift"  type="number" >
+                0.19999980926513671875
+            </Value>
+            <Value property="Osc2SMA"  type="number" >
+                0
+            </Value>
+            <Value property="Osc2Speed"  type="number" >
+                0
+            </Value>
+            <Value property="Osc2Sym"  type="number" >
+                0.5
+            </Value>
+            <Value property="Osc2Pan"  type="number" >
+                0.5
+            </Value>
+            <Value property="Osc2Volume"  type="number" >
+                0.75
+            </Value>
+            <Value property="Osc3On"  type="boolean" >
+                false
+            </Value>
+            <Value property="Osc3Free"  type="boolean" >
+                false
+            </Value>
+            <Value property="Osc3Track"  type="boolean" >
+                true
+            </Value>
+            <Value property="Osc3Sync"  type="boolean" >
+                false
+            </Value>
+            <Value property="Osc3Rev"  type="boolean" >
+                false
+            </Value>
+            <Value property="Osc3VolInvEnv"  type="boolean" >
+                false
+            </Value>
+            <Value property="Osc3Type"  type="number" >
+                0
+            </Value>
+            <Value property="Osc3SubType_Analogue"  type="number" >
+                0
+            </Value>
+            <Value property="Osc3SubType_Additive1"  type="number" >
+                0
+            </Value>
+            <Value property="Osc3SubType_Additive2"  type="number" >
+                0
+            </Value>
+            <Value property="Osc3SubType_Additive3"  type="number" >
+                0
+            </Value>
+            <Value property="Osc3SubType_Spectral1"  type="number" >
+                0
+            </Value>
+            <Value property="Osc3SubType_Spectral2"  type="number" >
+                0
+            </Value>
+            <Value property="Osc3SubType_Sample1"  type="number" >
+                0
+            </Value>
+            <Value property="Osc3SubType_Sample2"  type="number" >
+                0
+            </Value>
+            <Value property="Osc3SubType_Sample3"  type="number" >
+                0
+            </Value>
+            <Value property="Osc3SubType_Sample4"  type="number" >
+                0
+            </Value>
+            <Value property="Osc3SubType_Sample5"  type="number" >
+                0
+            </Value>
+            <Value property="Osc3SubType_Sample6"  type="number" >
+                0
+            </Value>
+            <Value property="Osc3SubType_Sample7"  type="number" >
+                0
+            </Value>
+            <Value property="Osc3SubType_Sample8"  type="number" >
+                0
+            </Value>
+            <Value property="Osc3SubType_Sample9"  type="number" >
+                0
+            </Value>
+            <Value property="Osc3SubType_Sample10"  type="number" >
+                0
+            </Value>
+            <Value property="Osc3SubType_Sample11"  type="number" >
+                0
+            </Value>
+            <Value property="Osc3SubType_BigSample"  type="number" >
+                0
+            </Value>
+            <Value property="Osc3SubType_TunedPerc"  type="number" >
+                0
+            </Value>
+            <Value property="Osc3SubType_Perc1"  type="number" >
+                0
+            </Value>
+            <Value property="Osc3SubType_Perc2"  type="number" >
+                0
+            </Value>
+            <Value property="Osc3SubType_Perc3"  type="number" >
+                0
+            </Value>
+            <Value property="Osc3SubType_Perc4"  type="number" >
+                0
+            </Value>
+            <Value property="Osc3SubType_Perc5"  type="number" >
+                0
+            </Value>
+            <Value property="Osc3Delay"  type="number" >
+                0
+            </Value>
+            <Value property="Osc3Retrig"  type="number" >
+                0
+            </Value>
+            <Value property="Osc3Route"  type="number" >
+                0
+            </Value>
+            <Value property="Osc3VolEnv"  type="number" >
+                0
+            </Value>
+            <Value property="Osc3Oct"  type="number" >
+                4
+            </Value>
+            <Value property="Osc3Semi"  type="number" >
+                48
+            </Value>
+            <Value property="Osc3Fine"  type="number" >
+                0.5
+            </Value>
+            <Value property="Osc3Spread"  type="number" >
+                0
+            </Value>
+            <Value property="Osc3Sub"  type="number" >
+                0.5
+            </Value>
+            <Value property="Osc3Drift"  type="number" >
+                0.19999980926513671875
+            </Value>
+            <Value property="Osc3SMA"  type="number" >
+                0
+            </Value>
+            <Value property="Osc3Speed"  type="number" >
+                0
+            </Value>
+            <Value property="Osc3Sym"  type="number" >
+                0.5
+            </Value>
+            <Value property="Osc3Pan"  type="number" >
+                0.5
+            </Value>
+            <Value property="Osc3Volume"  type="number" >
+                0.75
+            </Value>
+            <Value property="Osc4On"  type="boolean" >
+                false
+            </Value>
+            <Value property="Osc4Free"  type="boolean" >
+                false
+            </Value>
+            <Value property="Osc4Track"  type="boolean" >
+                true
+            </Value>
+            <Value property="Osc4Sync"  type="boolean" >
+                false
+            </Value>
+            <Value property="Osc4Rev"  type="boolean" >
+                false
+            </Value>
+            <Value property="Osc4VolInvEnv"  type="boolean" >
+                false
+            </Value>
+            <Value property="Osc4Type"  type="number" >
+                0
+            </Value>
+            <Value property="Osc4SubType_Analogue"  type="number" >
+                0
+            </Value>
+            <Value property="Osc4SubType_Additive1"  type="number" >
+                0
+            </Value>
+            <Value property="Osc4SubType_Additive2"  type="number" >
+                0
+            </Value>
+            <Value property="Osc4SubType_Additive3"  type="number" >
+                0
+            </Value>
+            <Value property="Osc4SubType_Spectral1"  type="number" >
+                0
+            </Value>
+            <Value property="Osc4SubType_Spectral2"  type="number" >
+                0
+            </Value>
+            <Value property="Osc4SubType_Sample1"  type="number" >
+                0
+            </Value>
+            <Value property="Osc4SubType_Sample2"  type="number" >
+                0
+            </Value>
+            <Value property="Osc4SubType_Sample3"  type="number" >
+                0
+            </Value>
+            <Value property="Osc4SubType_Sample4"  type="number" >
+                0
+            </Value>
+            <Value property="Osc4SubType_Sample5"  type="number" >
+                0
+            </Value>
+            <Value property="Osc4SubType_Sample6"  type="number" >
+                0
+            </Value>
+            <Value property="Osc4SubType_Sample7"  type="number" >
+                0
+            </Value>
+            <Value property="Osc4SubType_Sample8"  type="number" >
+                0
+            </Value>
+            <Value property="Osc4SubType_Sample9"  type="number" >
+                0
+            </Value>
+            <Value property="Osc4SubType_Sample10"  type="number" >
+                0
+            </Value>
+            <Value property="Osc4SubType_Sample11"  type="number" >
+                0
+            </Value>
+            <Value property="Osc4SubType_BigSample"  type="number" >
+                0
+            </Value>
+            <Value property="Osc4SubType_TunedPerc"  type="number" >
+                0
+            </Value>
+            <Value property="Osc4SubType_Perc1"  type="number" >
+                0
+            </Value>
+            <Value property="Osc4SubType_Perc2"  type="number" >
+                0
+            </Value>
+            <Value property="Osc4SubType_Perc3"  type="number" >
+                0
+            </Value>
+            <Value property="Osc4SubType_Perc4"  type="number" >
+                0
+            </Value>
+            <Value property="Osc4SubType_Perc5"  type="number" >
+                0
+            </Value>
+            <Value property="Osc4Delay"  type="number" >
+                0
+            </Value>
+            <Value property="Osc4Retrig"  type="number" >
+                0
+            </Value>
+            <Value property="Osc4Route"  type="number" >
+                0
+            </Value>
+            <Value property="Osc4VolEnv"  type="number" >
+                0
+            </Value>
+            <Value property="Osc4Oct"  type="number" >
+                4
+            </Value>
+            <Value property="Osc4Semi"  type="number" >
+                48
+            </Value>
+            <Value property="Osc4Fine"  type="number" >
+                0.5
+            </Value>
+            <Value property="Osc4Spread"  type="number" >
+                0
+            </Value>
+            <Value property="Osc4Sub"  type="number" >
+                0.5
+            </Value>
+            <Value property="Osc4Drift"  type="number" >
+                0.19999980926513671875
+            </Value>
+            <Value property="Osc4SMA"  type="number" >
+                0
+            </Value>
+            <Value property="Osc4Speed"  type="number" >
+                0
+            </Value>
+            <Value property="Osc4Sym"  type="number" >
+                0.5
+            </Value>
+            <Value property="Osc4Pan"  type="number" >
+                0.5
+            </Value>
+            <Value property="Osc4Volume"  type="number" >
+                0.75
+            </Value>
+            <Value property="XYOn"  type="boolean" >
+                false
+            </Value>
+            <Value property="XY_X"  type="number" >
+                0.5
+            </Value>
+            <Value property="XY_Y"  type="number" >
+                0.5
+            </Value>
+            <Value property="XYMode"  type="number" >
+                0
+            </Value>
+            <Value property="XYSteps"  type="number" >
+                3
+            </Value>
+            <Value property="XYPlayMode"  type="number" >
+                0
+            </Value>
+            <Value property="XYLoopMode"  type="number" >
+                0
+            </Value>
+            <Value property="XYLoopStart"  type="number" >
+                0
+            </Value>
+            <Value property="XYLoopSync"  type="number" >
+                16
+            </Value>
+            <Value property="XYSpaceQuant"  type="number" >
+                0
+            </Value>
+            <Value property="XYTimeQuant"  type="number" >
+                0
+            </Value>
+            <Value property="XYSpeedSource"  type="number" >
+                0
+            </Value>
+            <Value property="XYSpeed"  type="number" >
+                0.5
+            </Value>
+            <Value property="XYSpeedControl"  type="number" >
+                0.5
+            </Value>
+            <Value property="XYSmooth"  type="number" >
+                0
+            </Value>
+            <Value property="Filter1Path"  type="number" >
+                0
+            </Value>
+            <Value property="Filter2Path"  type="number" >
+                0
+            </Value>
+            <Value property="Filter1Type"  type="number" >
+                0
+            </Value>
+            <Value property="Filter1Freq"  type="number" >
+                1
+            </Value>
+            <Value property="Filter1Q"  type="number" >
+                0
+            </Value>
+            <Value property="Filter1Vowel"  type="number" >
+                0
+            </Value>
+            <Value property="Filter1Vol"  type="number" >
+                0.6665999889373779296875
+            </Value>
+            <Value property="Filter1Pan"  type="number" >
+                0.5
+            </Value>
+            <Value property="Filter1Mod"  type="number" >
+                0.5
+            </Value>
+            <Value property="Filter1Track"  type="number" >
+                0.5
+            </Value>
+            <Value property="Filter1Vel"  type="number" >
+                0.5
+            </Value>
+            <Value property="Filter1Env"  type="number" >
+                0.5
+            </Value>
+            <Value property="Filter1Attack"  type="number" >
+                0.0499999523162841796875
+            </Value>
+            <Value property="Filter1Decay"  type="number" >
+                0.0499999523162841796875
+            </Value>
+            <Value property="Filter1Sustain"  type="number" >
+                1
+            </Value>
+            <Value property="Filter1Fade"  type="number" >
+                0.5
+            </Value>
+            <Value property="Filter1Release"  type="number" >
+                0.599999904632568359375
+            </Value>
+            <Value property="Filter2Type"  type="number" >
+                0
+            </Value>
+            <Value property="Filter2Freq"  type="number" >
+                1
+            </Value>
+            <Value property="Filter2Q"  type="number" >
+                0
+            </Value>
+            <Value property="Filter2Vowel"  type="number" >
+                0
+            </Value>
+            <Value property="Filter2Vol"  type="number" >
+                0.6665999889373779296875
+            </Value>
+            <Value property="Filter2Pan"  type="number" >
+                0.5
+            </Value>
+            <Value property="Filter2Mod"  type="number" >
+                0.5
+            </Value>
+            <Value property="Filter2Track"  type="number" >
+                0.5
+            </Value>
+            <Value property="Filter2Vel"  type="number" >
+                0.5
+            </Value>
+            <Value property="Filter2Env"  type="number" >
+                0.5
+            </Value>
+            <Value property="Filter2Attack"  type="number" >
+                0.0499999523162841796875
+            </Value>
+            <Value property="Filter2Decay"  type="number" >
+                0.0499999523162841796875
+            </Value>
+            <Value property="Filter2Sustain"  type="number" >
+                1
+            </Value>
+            <Value property="Filter2Fade"  type="number" >
+                0.5
+            </Value>
+            <Value property="Filter2Release"  type="number" >
+                0.599999904632568359375
+            </Value>
+            <Value property="FilterNo"  type="number" >
+                0
+            </Value>
+            <Value property="Volume"  type="number" >
+                0.75
+            </Value>
+            <Value property="Pan"  type="number" >
+                0.5
+            </Value>
+            <Value property="Velocity"  type="number" >
+                0.75
+            </Value>
+            <Value property="VelocityShape"  type="number" >
+                0.5
+            </Value>
+            <Value property="Attack"  type="number" >
+                0.0499999523162841796875
+            </Value>
+            <Value property="Decay"  type="number" >
+                0.599999904632568359375
+            </Value>
+            <Value property="Sustain"  type="number" >
+                1
+            </Value>
+            <Value property="Fade"  type="number" >
+                0.5
+            </Value>
+            <Value property="Release"  type="number" >
+                0.5
+            </Value>
+            <Value property="Linear"  type="boolean" >
+                true
+            </Value>
+            <Value property="PitchBendDown"  type="number" >
+                0
+            </Value>
+            <Value property="PitchBendUp"  type="number" >
+                0
+            </Value>
+            <Value property="PlayMode"  type="number" >
+                0
+            </Value>
+            <Value property="PortMode"  type="number" >
+                0
+            </Value>
+            <Value property="PortAmt"  type="number" >
+                0
+            </Value>
+            <Value property="ChordMode"  type="number" >
+                0
+            </Value>
+            <Value property="ChordNote"  type="number" >
+                1
+            </Value>
+            <Value property="ChordSync"  type="boolean" >
+                true
+            </Value>
+            <Value property="ChordStrumMS"  type="number" >
+                0
+            </Value>
+            <Value property="ChordStrumQB"  type="number" >
+                0
+            </Value>
+            <Value property="ChordSemi1"  type="number" >
+                1
+            </Value>
+            <Value property="ChordSemi2"  type="number" >
+                24
+            </Value>
+            <Value property="ChordSemi3"  type="number" >
+                24
+            </Value>
+            <Value property="ChordSemi4"  type="number" >
+                24
+            </Value>
+            <Value property="ChordSemi5"  type="number" >
+                24
+            </Value>
+            <Value property="ChordSemi6"  type="number" >
+                24
+            </Value>
+            <Value property="ChordSemi7"  type="number" >
+                24
+            </Value>
+            <Value property="ChordSemi8"  type="number" >
+                24
+            </Value>
+            <Value property="ChordPan1"  type="number" >
+                0.5
+            </Value>
+            <Value property="ChordPan2"  type="number" >
+                0.5
+            </Value>
+            <Value property="ChordPan3"  type="number" >
+                0.5
+            </Value>
+            <Value property="ChordPan4"  type="number" >
+                0.5
+            </Value>
+            <Value property="ChordPan5"  type="number" >
+                0.5
+            </Value>
+            <Value property="ChordPan6"  type="number" >
+                0.5
+            </Value>
+            <Value property="ChordPan7"  type="number" >
+                0.5
+            </Value>
+            <Value property="ChordPan8"  type="number" >
+                0.5
+            </Value>
+            <Value property="ArpSteps"  type="number" >
+                15
+            </Value>
+            <Value property="ArpSpeed"  type="number" >
+                4
+            </Value>
+            <Value property="ArpMode"  type="number" >
+                0
+            </Value>
+            <Value property="ArpOct"  type="number" >
+                0
+            </Value>
+            <Value property="ArpNoteLen"  type="number" >
+                1
+            </Value>
+            <Value property="ArpSwing"  type="number" >
+                0
+            </Value>
+            <Value property="ArpVelKey"  type="number" >
+                0
+            </Value>
+            <Value property="ArpSync"  type="boolean" >
+                true
+            </Value>
+            <Value property="ArpLatch"  type="boolean" >
+                false
+            </Value>
+            <Value property="ArpOn_01"  type="boolean" >
+                true
+            </Value>
+            <Value property="ArpOn_02"  type="boolean" >
+                true
+            </Value>
+            <Value property="ArpOn_03"  type="boolean" >
+                true
+            </Value>
+            <Value property="ArpOn_04"  type="boolean" >
+                true
+            </Value>
+            <Value property="ArpOn_05"  type="boolean" >
+                true
+            </Value>
+            <Value property="ArpOn_06"  type="boolean" >
+                true
+            </Value>
+            <Value property="ArpOn_07"  type="boolean" >
+                true
+            </Value>
+            <Value property="ArpOn_08"  type="boolean" >
+                true
+            </Value>
+            <Value property="ArpOn_09"  type="boolean" >
+                true
+            </Value>
+            <Value property="ArpOn_10"  type="boolean" >
+                true
+            </Value>
+            <Value property="ArpOn_11"  type="boolean" >
+                true
+            </Value>
+            <Value property="ArpOn_12"  type="boolean" >
+                true
+            </Value>
+            <Value property="ArpOn_13"  type="boolean" >
+                true
+            </Value>
+            <Value property="ArpOn_14"  type="boolean" >
+                true
+            </Value>
+            <Value property="ArpOn_15"  type="boolean" >
+                true
+            </Value>
+            <Value property="ArpOn_16"  type="boolean" >
+                true
+            </Value>
+            <Value property="ArpVel_01"  type="number" >
+                1
+            </Value>
+            <Value property="ArpVel_02"  type="number" >
+                1
+            </Value>
+            <Value property="ArpVel_03"  type="number" >
+                1
+            </Value>
+            <Value property="ArpVel_04"  type="number" >
+                1
+            </Value>
+            <Value property="ArpVel_05"  type="number" >
+                1
+            </Value>
+            <Value property="ArpVel_06"  type="number" >
+                1
+            </Value>
+            <Value property="ArpVel_07"  type="number" >
+                1
+            </Value>
+            <Value property="ArpVel_08"  type="number" >
+                1
+            </Value>
+            <Value property="ArpVel_09"  type="number" >
+                1
+            </Value>
+            <Value property="ArpVel_10"  type="number" >
+                1
+            </Value>
+            <Value property="ArpVel_11"  type="number" >
+                1
+            </Value>
+            <Value property="ArpVel_12"  type="number" >
+                1
+            </Value>
+            <Value property="ArpVel_13"  type="number" >
+                1
+            </Value>
+            <Value property="ArpVel_14"  type="number" >
+                1
+            </Value>
+            <Value property="ArpVel_15"  type="number" >
+                1
+            </Value>
+            <Value property="ArpVel_16"  type="number" >
+                1
+            </Value>
+            <Value property="FreeEnv1Sync"  type="boolean" >
+                false
+            </Value>
+            <Value property="FreeEnv1AttackMS"  type="number" >
+                0.0499999523162841796875
+            </Value>
+            <Value property="FreeEnv1DecayMS"  type="number" >
+                0.69999980926513671875
+            </Value>
+            <Value property="FreeEnv1SustainMS"  type="number" >
+                1
+            </Value>
+            <Value property="FreeEnv1FadeMS"  type="number" >
+                0.5
+            </Value>
+            <Value property="FreeEnv1ReleaseMS"  type="number" >
+                0.599999904632568359375
+            </Value>
+            <Value property="FreeEnv1AttackQB"  type="number" >
+                0
+            </Value>
+            <Value property="FreeEnv1DecayQB"  type="number" >
+                10
+            </Value>
+            <Value property="FreeEnv1SustainQB"  type="number" >
+                1
+            </Value>
+            <Value property="FreeEnv1FadeQB"  type="number" >
+                30
+            </Value>
+            <Value property="FreeEnv1ReleaseQB"  type="number" >
+                10
+            </Value>
+            <Value property="FreeEnv1Key"  type="number" >
+                0.5
+            </Value>
+            <Value property="FreeEnv1Vel"  type="number" >
+                0.5
+            </Value>
+            <Value property="FreeEnv2Sync"  type="boolean" >
+                false
+            </Value>
+            <Value property="FreeEnv2AttackMS"  type="number" >
+                0.0499999523162841796875
+            </Value>
+            <Value property="FreeEnv2DecayMS"  type="number" >
+                0.69999980926513671875
+            </Value>
+            <Value property="FreeEnv2SustainMS"  type="number" >
+                1
+            </Value>
+            <Value property="FreeEnv2FadeMS"  type="number" >
+                0.5
+            </Value>
+            <Value property="FreeEnv2ReleaseMS"  type="number" >
+                0.599999904632568359375
+            </Value>
+            <Value property="FreeEnv2AttackQB"  type="number" >
+                0
+            </Value>
+            <Value property="FreeEnv2DecayQB"  type="number" >
+                10
+            </Value>
+            <Value property="FreeEnv2SustainQB"  type="number" >
+                1
+            </Value>
+            <Value property="FreeEnv2FadeQB"  type="number" >
+                30
+            </Value>
+            <Value property="FreeEnv2ReleaseQB"  type="number" >
+                10
+            </Value>
+            <Value property="FreeEnv2Key"  type="number" >
+                0.5
+            </Value>
+            <Value property="FreeEnv2Vel"  type="number" >
+                0.5
+            </Value>
+            <Value property="FreeLFO1Wave"  type="number" >
+                0
+            </Value>
+            <Value property="FreeLFO1Mode"  type="number" >
+                0
+            </Value>
+            <Value property="FreeLFO1SpeedMS"  type="number" >
+                0.5
+            </Value>
+            <Value property="FreeLFO1SpeedQB"  type="number" >
+                15
+            </Value>
+            <Value property="FreeLFO1Sync"  type="boolean" >
+                false
+            </Value>
+            <Value property="FreeLFO2Wave"  type="number" >
+                0
+            </Value>
+            <Value property="FreeLFO2Mode"  type="number" >
+                0
+            </Value>
+            <Value property="FreeLFO2SpeedMS"  type="number" >
+                0.5
+            </Value>
+            <Value property="FreeLFO2SpeedQB"  type="number" >
+                15
+            </Value>
+            <Value property="FreeLFO2Sync"  type="boolean" >
+                false
+            </Value>
+            <Value property="FreeMod1Src"  type="number" >
+                0
+            </Value>
+            <Value property="FreeMod2Src"  type="number" >
+                0
+            </Value>
+            <Value property="FreeMod3Src"  type="number" >
+                0
+            </Value>
+            <Value property="FreeMod4Src"  type="number" >
+                0
+            </Value>
+            <Value property="FreeMod5Src"  type="number" >
+                0
+            </Value>
+            <Value property="FreeMod6Src"  type="number" >
+                12
+            </Value>
+            <Value property="FreeMod7Src"  type="number" >
+                12
+            </Value>
+            <Value property="FreeMod8Src"  type="number" >
+                6
+            </Value>
+            <Value property="FreeMod1Dest"  type="number" >
+                0
+            </Value>
+            <Value property="FreeMod2Dest"  type="number" >
+                0
+            </Value>
+            <Value property="FreeMod3Dest"  type="number" >
+                0
+            </Value>
+            <Value property="FreeMod4Dest"  type="number" >
+                0
+            </Value>
+            <Value property="FreeMod5Dest"  type="number" >
+                0
+            </Value>
+            <Value property="FreeMod6Dest"  type="number" >
+                1
+            </Value>
+            <Value property="FreeMod7Dest"  type="number" >
+                2
+            </Value>
+            <Value property="FreeMod8Dest"  type="number" >
+                1
+            </Value>
+            <Value property="FreeMod1Amt"  type="number" >
+                0.5
+            </Value>
+            <Value property="FreeMod2Amt"  type="number" >
+                0.5
+            </Value>
+            <Value property="FreeMod3Amt"  type="number" >
+                0.5
+            </Value>
+            <Value property="FreeMod4Amt"  type="number" >
+                0.5
+            </Value>
+            <Value property="FreeMod5Amt"  type="number" >
+                0.5
+            </Value>
+            <Value property="FreeMod6Amt"  type="number" >
+                0.6805999279022216796875
+            </Value>
+            <Value property="FreeMod7Amt"  type="number" >
+                0.491199970245361328125
+            </Value>
+            <Value property="FreeMod8Amt"  type="number" >
+                0.0592401027679443359375
+            </Value>
+            <Value property="ModFxOn"  type="boolean" >
+                false
+            </Value>
+            <Value property="ModFxType"  type="number" >
+                0
+            </Value>
+            <Value property="ModFxMix"  type="number" >
+                0.125
+            </Value>
+            <Value property="ModFxNone6"  type="number" >
+                0
+            </Value>
+            <Value property="ModFxNone7"  type="number" >
+                0
+            </Value>
+            <Value property="ModFxNone8"  type="number" >
+                0
+            </Value>
+            <Value property="ModFxChorus1"  type="number" >
+                0.48099994659423828125
+            </Value>
+            <Value property="ModFxChorus2"  type="number" >
+                0.4399998188018798828125
+            </Value>
+            <Value property="ModFxChorus3"  type="number" >
+                0.4199998378753662109375
+            </Value>
+            <Value property="ModFxChorus4"  type="number" >
+                0.3599998950958251953125
+            </Value>
+            <Value property="ModFxChorus5"  type="number" >
+                0
+            </Value>
+            <Value property="ModFxChorus6"  type="number" >
+                0.9799997806549072265625
+            </Value>
+            <Value property="ModFxChorus7"  type="number" >
+                0
+            </Value>
+            <Value property="ModFxEnsemble1"  type="number" >
+                0.4899997711181640625
+            </Value>
+            <Value property="ModFxEnsemble2"  type="number" >
+                0.3599998950958251953125
+            </Value>
+            <Value property="ModFxEnsemble3"  type="number" >
+                0.684999942779541015625
+            </Value>
+            <Value property="ModFxEnsemble4"  type="number" >
+                0.3399999141693115234375
+            </Value>
+            <Value property="ModFxEnsemble5"  type="number" >
+                0.8549997806549072265625
+            </Value>
+            <Value property="ModFxEnsemble6"  type="number" >
+                1
+            </Value>
+            <Value property="ModFxEnsemble7"  type="number" >
+                1
+            </Value>
+            <Value property="ModFxEnsemble8"  type="number" >
+                0
+            </Value>
+            <Value property="ModFxFlanger1"  type="number" >
+                0.1499998569488525390625
+            </Value>
+            <Value property="ModFxFlanger2"  type="number" >
+                1
+            </Value>
+            <Value property="ModFxFlanger3"  type="number" >
+                13
+            </Value>
+            <Value property="ModFxFlanger4"  type="number" >
+                0.849999904632568359375
+            </Value>
+            <Value property="ModFxFlanger5"  type="number" >
+                0
+            </Value>
+            <Value property="ModFxFlanger6"  type="number" >
+                0.9199998378753662109375
+            </Value>
+            <Value property="ModFxFlanger7"  type="number" >
+                0.1899998188018798828125
+            </Value>
+            <Value property="ModFxPhaser1"  type="number" >
+                4
+            </Value>
+            <Value property="ModFxPhaser2"  type="number" >
+                0.5299999713897705078125
+            </Value>
+            <Value property="ModFxPhaser3"  type="number" >
+                0.5699999332427978515625
+            </Value>
+            <Value property="ModFxPhaser4"  type="number" >
+                0.849999904632568359375
+            </Value>
+            <Value property="ModFxPhaser5"  type="number" >
+                14
+            </Value>
+            <Value property="ModFxPhaser6"  type="number" >
+                0
+            </Value>
+            <Value property="ModFxPhaser7"  type="number" >
+                0.679999828338623046875
+            </Value>
+            <Value property="ModFxPhaser8"  type="number" >
+                0
+            </Value>
+            <Value property="ModFxWidener1"  type="number" >
+                1
+            </Value>
+            <Value property="ModFxWidener2"  type="number" >
+                0.2399997711181640625
+            </Value>
+            <Value property="ModFxWidener3"  type="number" >
+                0.309999942779541015625
+            </Value>
+            <Value property="ModFxWidener4"  type="number" >
+                1
+            </Value>
+            <Value property="ModFxWidener5"  type="number" >
+                0
+            </Value>
+            <Value property="DelayFxOn"  type="boolean" >
+                false
+            </Value>
+            <Value property="DelayFxType"  type="number" >
+                0
+            </Value>
+            <Value property="DelayFxMix"  type="number" >
+                0.125
+            </Value>
+            <Value property="DelayFxNone8"  type="number" >
+                0
+            </Value>
+            <Value property="DelayFxDelay1"  type="number" >
+                7
+            </Value>
+            <Value property="DelayFxDelay2"  type="number" >
+                8
+            </Value>
+            <Value property="DelayFxDelay3"  type="number" >
+                0.6899998188018798828125
+            </Value>
+            <Value property="DelayFxDelay4"  type="number" >
+                0.5
+            </Value>
+            <Value property="DelayFxDelay5"  type="number" >
+                1
+            </Value>
+            <Value property="DelayFxDelay6"  type="number" >
+                0.909999847412109375
+            </Value>
+            <Value property="DelayFxDelay7"  type="number" >
+                0.179999828338623046875
+            </Value>
+            <Value property="DelayFxDelay8"  type="number" >
+                0
+            </Value>
+            <Value property="DelayFxReverb1"  type="number" >
+                0.6899998188018798828125
+            </Value>
+            <Value property="DelayFxReverb2"  type="number" >
+                0.78999996185302734375
+            </Value>
+            <Value property="DelayFxReverb3"  type="number" >
+                0.75
+            </Value>
+            <Value property="DelayFxReverb4"  type="number" >
+                0.0899999141693115234375
+            </Value>
+            <Value property="DelayFxReverb5"  type="number" >
+                0
+            </Value>
+            <Value property="DelayFxReverb6"  type="number" >
+                0.9399998188018798828125
+            </Value>
+            <Value property="DelayFxReverb7"  type="number" >
+                0.059999942779541015625
+            </Value>
+            <Value property="ReverbFxMix"  type="number" >
+                0.125
+            </Value>
+            <Value property="DelayPath"  type="number" >
+                0
+            </Value>
+            <Value property="c3"  type="boolean" >
+                false
+            </Value>
+            <Value property="X01"  type="number" >
+                0.5
+            </Value>
+            <Value property="X02"  type="number" >
+                0.5699999332427978515625
+            </Value>
+            <Value property="X03"  type="number" >
+                0.6299998760223388671875
+            </Value>
+            <Value property="X04"  type="number" >
+                0.6899998188018798828125
+            </Value>
+            <Value property="X05"  type="number" >
+                0.75
+            </Value>
+            <Value property="X06"  type="number" >
+                0.78999996185302734375
+            </Value>
+            <Value property="X07"  type="number" >
+                0.8199999332427978515625
+            </Value>
+            <Value property="X08"  type="number" >
+                0.8399999141693115234375
+            </Value>
+            <Value property="X09"  type="number" >
+                0.849999904632568359375
+            </Value>
+            <Value property="X10"  type="number" >
+                0.8399999141693115234375
+            </Value>
+            <Value property="X11"  type="number" >
+                0.8199999332427978515625
+            </Value>
+            <Value property="X12"  type="number" >
+                0.78999996185302734375
+            </Value>
+            <Value property="X13"  type="number" >
+                0.75
+            </Value>
+            <Value property="X14"  type="number" >
+                0.6899998188018798828125
+            </Value>
+            <Value property="X15"  type="number" >
+                0.6299998760223388671875
+            </Value>
+            <Value property="X16"  type="number" >
+                0.5699999332427978515625
+            </Value>
+            <Value property="X17"  type="number" >
+                0.5
+            </Value>
+            <Value property="X18"  type="number" >
+                0.429999828338623046875
+            </Value>
+            <Value property="X19"  type="number" >
+                0.36999988555908203125
+            </Value>
+            <Value property="X20"  type="number" >
+                0.309999942779541015625
+            </Value>
+            <Value property="X21"  type="number" >
+                0.25
+            </Value>
+            <Value property="X22"  type="number" >
+                0.2099997997283935546875
+            </Value>
+            <Value property="X23"  type="number" >
+                0.179999828338623046875
+            </Value>
+            <Value property="X24"  type="number" >
+                0.159999847412109375
+            </Value>
+            <Value property="X25"  type="number" >
+                0.1499998569488525390625
+            </Value>
+            <Value property="X26"  type="number" >
+                0.159999847412109375
+            </Value>
+            <Value property="X27"  type="number" >
+                0.179999828338623046875
+            </Value>
+            <Value property="X28"  type="number" >
+                0.2099997997283935546875
+            </Value>
+            <Value property="X29"  type="number" >
+                0.25
+            </Value>
+            <Value property="X30"  type="number" >
+                0.309999942779541015625
+            </Value>
+            <Value property="X31"  type="number" >
+                0.36999988555908203125
+            </Value>
+            <Value property="X32"  type="number" >
+                0.429999828338623046875
+            </Value>
+            <Value property="Y01"  type="number" >
+                0.849999904632568359375
+            </Value>
+            <Value property="Y02"  type="number" >
+                0.8399999141693115234375
+            </Value>
+            <Value property="Y03"  type="number" >
+                0.8199999332427978515625
+            </Value>
+            <Value property="Y04"  type="number" >
+                0.78999996185302734375
+            </Value>
+            <Value property="Y05"  type="number" >
+                0.75
+            </Value>
+            <Value property="Y06"  type="number" >
+                0.6899998188018798828125
+            </Value>
+            <Value property="Y07"  type="number" >
+                0.6299998760223388671875
+            </Value>
+            <Value property="Y08"  type="number" >
+                0.5699999332427978515625
+            </Value>
+            <Value property="Y09"  type="number" >
+                0.5
+            </Value>
+            <Value property="Y10"  type="number" >
+                0.429999828338623046875
+            </Value>
+            <Value property="Y11"  type="number" >
+                0.36999988555908203125
+            </Value>
+            <Value property="Y12"  type="number" >
+                0.309999942779541015625
+            </Value>
+            <Value property="Y13"  type="number" >
+                0.25
+            </Value>
+            <Value property="Y14"  type="number" >
+                0.2099997997283935546875
+            </Value>
+            <Value property="Y15"  type="number" >
+                0.179999828338623046875
+            </Value>
+            <Value property="Y16"  type="number" >
+                0.159999847412109375
+            </Value>
+            <Value property="Y17"  type="number" >
+                0.1499998569488525390625
+            </Value>
+            <Value property="Y18"  type="number" >
+                0.159999847412109375
+            </Value>
+            <Value property="Y19"  type="number" >
+                0.179999828338623046875
+            </Value>
+            <Value property="Y20"  type="number" >
+                0.2099997997283935546875
+            </Value>
+            <Value property="Y21"  type="number" >
+                0.25
+            </Value>
+            <Value property="Y22"  type="number" >
+                0.309999942779541015625
+            </Value>
+            <Value property="Y23"  type="number" >
+                0.36999988555908203125
+            </Value>
+            <Value property="Y24"  type="number" >
+                0.429999828338623046875
+            </Value>
+            <Value property="Y25"  type="number" >
+                0.5
+            </Value>
+            <Value property="Y26"  type="number" >
+                0.5699999332427978515625
+            </Value>
+            <Value property="Y27"  type="number" >
+                0.6299998760223388671875
+            </Value>
+            <Value property="Y28"  type="number" >
+                0.6899998188018798828125
+            </Value>
+            <Value property="Y29"  type="number" >
+                0.75
+            </Value>
+            <Value property="Y30"  type="number" >
+                0.78999996185302734375
+            </Value>
+            <Value property="Y31"  type="number" >
+                0.8199999332427978515625
+            </Value>
+            <Value property="Y32"  type="number" >
+                0.8399999141693115234375
+            </Value>
+            <Value property="SelectedXY"  type="number" >
+                0
+            </Value>
+            <Value property="UpdateXY"  type="boolean" >
+                true
+            </Value>
+            <Value property="PressedXY"  type="number" >
+                0
+            </Value>
+            <Value property="XYShapeMode"  type="number" >
+                0
+            </Value>
+            <Value property="AudioInToFX"  type="boolean" >
+                true
+            </Value>
+            <Value property="AudioInVolume"  type="number" >
+                0.5
+            </Value>
+            <Value property="AudioInVolumeSmooth"  type="number" >
+                0.5
+            </Value>
+            <Value property="Quality"  type="number" >
+                0
+            </Value>
+        </Object>
+        <Object name="transport" />
+    </Properties>
+</JukeboxPatch>

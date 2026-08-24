@@ -1,0 +1,1583 @@
+<?xml version="1.0"?>
+<JukeboxPatch version="2.0"  deviceProductID="com.blamsoft.Expanse"  deviceVersion="3.1.3" >
+    <DeviceNameInEnglish>
+        Expanse Hyperwave Synthesizer
+    </DeviceNameInEnglish>
+    <Samples/>
+    <Properties>
+        <Object name="custom_properties" >
+            <Value property="fx_comp_attack"  type="number" >
+                0.34343433380126953125
+            </Value>
+            <Value property="fx_comp_enable"  type="number" >
+                0
+            </Value>
+            <Value property="fx_comp_input_gain"  type="number" >
+                0.5
+            </Value>
+            <Value property="fx_comp_knee"  type="number" >
+                0.003611087799072265625
+            </Value>
+            <Value property="fx_comp_mix"  type="number" >
+                1
+            </Value>
+            <Value property="fx_comp_output_gain"  type="number" >
+                0.5
+            </Value>
+            <Value property="fx_comp_ratio"  type="number" >
+                0.2099997997283935546875
+            </Value>
+            <Value property="fx_comp_release"  type="number" >
+                0.3145453929901123046875
+            </Value>
+            <Value property="fx_comp_threshold"  type="number" >
+                0.69999980926513671875
+            </Value>
+            <Value property="fx_delay_enable"  type="number" >
+                0
+            </Value>
+            <Value property="fx_delay_feedback"  type="number" >
+                0.410526275634765625
+            </Value>
+            <Value property="fx_delay_left_time"  type="number" >
+                7
+            </Value>
+            <Value property="fx_delay_mix"  type="number" >
+                0.25
+            </Value>
+            <Value property="fx_delay_mode"  type="number" >
+                5
+            </Value>
+            <Value property="fx_delay_mod_amt"  type="number" >
+                0.19999980926513671875
+            </Value>
+            <Value property="fx_delay_mod_rate"  type="number" >
+                0.2156817913055419921875
+            </Value>
+            <Value property="fx_delay_right_time"  type="number" >
+                7
+            </Value>
+            <Value property="fx_delay_tone"  type="number" >
+                0.5
+            </Value>
+            <Value property="fx_dist_amount_1"  type="number" >
+                0.25
+            </Value>
+            <Value property="fx_dist_mode_1"  type="number" >
+                0
+            </Value>
+            <Value property="fx_dist_tone_1"  type="number" >
+                0.5
+            </Value>
+            <Value property="fx_dist_balance"  type="number" >
+                0
+            </Value>
+            <Value property="fx_dist_amount_2"  type="number" >
+                0.25
+            </Value>
+            <Value property="fx_dist_mode_2"  type="number" >
+                0
+            </Value>
+            <Value property="fx_dist_tone_2"  type="number" >
+                0.5
+            </Value>
+            <Value property="fx_dist_enable"  type="number" >
+                0
+            </Value>
+            <Value property="fx_dist_mix"  type="number" >
+                1
+            </Value>
+            <Value property="fx_eq_enable"  type="number" >
+                0
+            </Value>
+            <Value property="fx_eq_high_freq"  type="number" >
+                0.5
+            </Value>
+            <Value property="fx_eq_high_gain"  type="number" >
+                0.5
+            </Value>
+            <Value property="fx_eq_low_freq"  type="number" >
+                0.5
+            </Value>
+            <Value property="fx_eq_low_gain"  type="number" >
+                0.5
+            </Value>
+            <Value property="fx_eq_mid_freq"  type="number" >
+                0.5
+            </Value>
+            <Value property="fx_eq_mid_gain"  type="number" >
+                0.5
+            </Value>
+            <Value property="fx_eq_mid_q"  type="number" >
+                0.4444444179534912109375
+            </Value>
+            <Value property="fx_eq_mix"  type="number" >
+                1
+            </Value>
+            <Value property="effects_select"  type="number" >
+                0
+            </Value>
+            <Value property="fx_phaser_enable"  type="number" >
+                0
+            </Value>
+            <Value property="fx_phaser_feedback"  type="number" >
+                0.5102040767669677734375
+            </Value>
+            <Value property="fx_phaser_freq"  type="number" >
+                0.5
+            </Value>
+            <Value property="fx_phaser_mix"  type="number" >
+                0.5
+            </Value>
+            <Value property="fx_phaser_rate"  type="number" >
+                7
+            </Value>
+            <Value property="fx_phaser_shape"  type="number" >
+                2
+            </Value>
+            <Value property="fx_phaser_offset"  type="number" >
+                1
+            </Value>
+            <Value property="fx_phaser_num_stages"  type="number" >
+                5
+            </Value>
+            <Value property="fx_phaser_spread"  type="number" >
+                1
+            </Value>
+            <Value property="fx_reverb_damping"  type="number" >
+                0.5161998271942138671875
+            </Value>
+            <Value property="fx_reverb_enable"  type="number" >
+                0
+            </Value>
+            <Value property="fx_reverb_delay"  type="number" >
+                0.0799999237060546875
+            </Value>
+            <Value property="fx_reverb_low_time"  type="number" >
+                0.5974938869476318359375
+            </Value>
+            <Value property="fx_reverb_crossover"  type="number" >
+                0.8809387683868408203125
+            </Value>
+            <Value property="fx_reverb_mid_time"  type="number" >
+                0.5
+            </Value>
+            <Value property="fx_reverb_mix"  type="number" >
+                0.25
+            </Value>
+            <Value property="fx_reverb_mod_amt"  type="number" >
+                0.3799998760223388671875
+            </Value>
+            <Value property="fx_reverb_mod_rate"  type="number" >
+                0.4405977725982666015625
+            </Value>
+            <Value property="amp_env1_curve1"  type="number" >
+                0.5
+            </Value>
+            <Value property="amp_env1_curve2"  type="number" >
+                0.5
+            </Value>
+            <Value property="amp_env1_curve3"  type="number" >
+                0.5
+            </Value>
+            <Value property="amp_env1_curve4"  type="number" >
+                0.5
+            </Value>
+            <Value property="amp_env1_draw_loop_end"  type="number" >
+                0
+            </Value>
+            <Value property="amp_env1_draw_loop_start"  type="number" >
+                0
+            </Value>
+            <Value property="amp_env1_draw_sustain_stage"  type="number" >
+                1
+            </Value>
+            <Value property="amp_env1_draw_time_div"  type="number" >
+                15
+            </Value>
+            <Value property="amp_env1_draw_time_sec"  type="number" >
+                0.6749999523162841796875
+            </Value>
+            <Value property="amp_env1_level0"  type="number" >
+                0
+            </Value>
+            <Value property="amp_env1_level1"  type="number" >
+                1
+            </Value>
+            <Value property="amp_env1_level2"  type="number" >
+                0.75
+            </Value>
+            <Value property="amp_env1_level3"  type="number" >
+                0
+            </Value>
+            <Value property="amp_env1_level4"  type="number" >
+                0
+            </Value>
+            <Value property="amp_env1_loop"  type="number" >
+                0
+            </Value>
+            <Value property="amp_env1_loop_end"  type="number" >
+                3
+            </Value>
+            <Value property="amp_env1_loop_start"  type="number" >
+                0
+            </Value>
+            <Value property="amp_env1_mode"  type="number" >
+                2
+            </Value>
+            <Value property="amp_env1_scale"  type="number" >
+                0
+            </Value>
+            <Value property="amp_env1_scale_amount"  type="number" >
+                1
+            </Value>
+            <Value property="amp_env1_time1_div"  type="number" >
+                11
+            </Value>
+            <Value property="amp_env1_time1_sec"  type="number" >
+                0.099999904632568359375
+            </Value>
+            <Value property="amp_env1_time2_div"  type="number" >
+                11
+            </Value>
+            <Value property="amp_env1_time2_sec"  type="number" >
+                0.50107479095458984375
+            </Value>
+            <Value property="amp_env1_time3_div"  type="number" >
+                11
+            </Value>
+            <Value property="amp_env1_time3_sec"  type="number" >
+                0.50107479095458984375
+            </Value>
+            <Value property="amp_env1_time4_div"  type="number" >
+                11
+            </Value>
+            <Value property="amp_env1_time4_sec"  type="number" >
+                0.50107479095458984375
+            </Value>
+            <Value property="amp_env1_units"  type="number" >
+                0
+            </Value>
+            <Value property="amp_env_1_2_connect"  type="boolean" >
+                false
+            </Value>
+            <Value property="amp_env2_curve1"  type="number" >
+                0.5
+            </Value>
+            <Value property="amp_env2_curve2"  type="number" >
+                0.5
+            </Value>
+            <Value property="amp_env2_curve3"  type="number" >
+                0.5
+            </Value>
+            <Value property="amp_env2_curve4"  type="number" >
+                0.5
+            </Value>
+            <Value property="amp_env2_draw_loop_end"  type="number" >
+                0
+            </Value>
+            <Value property="amp_env2_draw_loop_start"  type="number" >
+                0
+            </Value>
+            <Value property="amp_env2_draw_sustain_stage"  type="number" >
+                1
+            </Value>
+            <Value property="amp_env2_draw_time_div"  type="number" >
+                15
+            </Value>
+            <Value property="amp_env2_draw_time_sec"  type="number" >
+                0.6749999523162841796875
+            </Value>
+            <Value property="amp_env2_level0"  type="number" >
+                0
+            </Value>
+            <Value property="amp_env2_level1"  type="number" >
+                1
+            </Value>
+            <Value property="amp_env2_level2"  type="number" >
+                0.75
+            </Value>
+            <Value property="amp_env2_level3"  type="number" >
+                0
+            </Value>
+            <Value property="amp_env2_level4"  type="number" >
+                0
+            </Value>
+            <Value property="amp_env2_loop"  type="number" >
+                0
+            </Value>
+            <Value property="amp_env2_loop_end"  type="number" >
+                3
+            </Value>
+            <Value property="amp_env2_loop_start"  type="number" >
+                0
+            </Value>
+            <Value property="amp_env2_mode"  type="number" >
+                2
+            </Value>
+            <Value property="amp_env2_scale"  type="number" >
+                0
+            </Value>
+            <Value property="amp_env2_scale_amount"  type="number" >
+                1
+            </Value>
+            <Value property="amp_env2_time1_div"  type="number" >
+                11
+            </Value>
+            <Value property="amp_env2_time1_sec"  type="number" >
+                0.099999904632568359375
+            </Value>
+            <Value property="amp_env2_time2_div"  type="number" >
+                11
+            </Value>
+            <Value property="amp_env2_time2_sec"  type="number" >
+                0.50107479095458984375
+            </Value>
+            <Value property="amp_env2_time3_div"  type="number" >
+                11
+            </Value>
+            <Value property="amp_env2_time3_sec"  type="number" >
+                0.50107479095458984375
+            </Value>
+            <Value property="amp_env2_time4_div"  type="number" >
+                11
+            </Value>
+            <Value property="amp_env2_time4_sec"  type="number" >
+                0.50107479095458984375
+            </Value>
+            <Value property="amp_env2_units"  type="number" >
+                0
+            </Value>
+            <Value property="amp_env_select"  type="number" >
+                0
+            </Value>
+            <Value property="double_click_snapshot"  type="number" >
+                0
+            </Value>
+            <Value property="mod_env1_curve1"  type="number" >
+                0.5
+            </Value>
+            <Value property="mod_env1_curve2"  type="number" >
+                0.5
+            </Value>
+            <Value property="mod_env1_curve3"  type="number" >
+                0.5
+            </Value>
+            <Value property="mod_env1_curve4"  type="number" >
+                0.5
+            </Value>
+            <Value property="mod_env1_draw_loop_end"  type="number" >
+                0
+            </Value>
+            <Value property="mod_env1_draw_loop_start"  type="number" >
+                0
+            </Value>
+            <Value property="mod_env1_draw_sustain_stage"  type="number" >
+                1
+            </Value>
+            <Value property="mod_env1_draw_time_div"  type="number" >
+                15
+            </Value>
+            <Value property="mod_env1_draw_time_sec"  type="number" >
+                0.6749999523162841796875
+            </Value>
+            <Value property="mod_env1_level0"  type="number" >
+                0
+            </Value>
+            <Value property="mod_env1_level1"  type="number" >
+                1
+            </Value>
+            <Value property="mod_env1_level2"  type="number" >
+                0.75
+            </Value>
+            <Value property="mod_env1_level3"  type="number" >
+                0
+            </Value>
+            <Value property="mod_env1_level4"  type="number" >
+                0
+            </Value>
+            <Value property="mod_env1_loop"  type="number" >
+                0
+            </Value>
+            <Value property="mod_env1_loop_end"  type="number" >
+                3
+            </Value>
+            <Value property="mod_env1_loop_start"  type="number" >
+                0
+            </Value>
+            <Value property="mod_env1_mode"  type="number" >
+                2
+            </Value>
+            <Value property="mod_env1_scale"  type="number" >
+                0
+            </Value>
+            <Value property="mod_env1_scale_amount"  type="number" >
+                1
+            </Value>
+            <Value property="mod_env1_time1_div"  type="number" >
+                11
+            </Value>
+            <Value property="mod_env1_time1_sec"  type="number" >
+                0.099999904632568359375
+            </Value>
+            <Value property="mod_env1_time2_div"  type="number" >
+                11
+            </Value>
+            <Value property="mod_env1_time2_sec"  type="number" >
+                0.50107479095458984375
+            </Value>
+            <Value property="mod_env1_time3_div"  type="number" >
+                11
+            </Value>
+            <Value property="mod_env1_time3_sec"  type="number" >
+                0.50107479095458984375
+            </Value>
+            <Value property="mod_env1_time4_div"  type="number" >
+                11
+            </Value>
+            <Value property="mod_env1_time4_sec"  type="number" >
+                0.50107479095458984375
+            </Value>
+            <Value property="mod_env1_units"  type="number" >
+                0
+            </Value>
+            <Value property="mod_env2_curve1"  type="number" >
+                0.5
+            </Value>
+            <Value property="mod_env2_curve2"  type="number" >
+                0.5
+            </Value>
+            <Value property="mod_env2_curve3"  type="number" >
+                0.5
+            </Value>
+            <Value property="mod_env2_curve4"  type="number" >
+                0.5
+            </Value>
+            <Value property="mod_env2_draw_loop_end"  type="number" >
+                0
+            </Value>
+            <Value property="mod_env2_draw_loop_start"  type="number" >
+                0
+            </Value>
+            <Value property="mod_env2_draw_sustain_stage"  type="number" >
+                1
+            </Value>
+            <Value property="mod_env2_draw_time_div"  type="number" >
+                15
+            </Value>
+            <Value property="mod_env2_draw_time_sec"  type="number" >
+                0.6749999523162841796875
+            </Value>
+            <Value property="mod_env2_level0"  type="number" >
+                0
+            </Value>
+            <Value property="mod_env2_level1"  type="number" >
+                1
+            </Value>
+            <Value property="mod_env2_level2"  type="number" >
+                0.75
+            </Value>
+            <Value property="mod_env2_level3"  type="number" >
+                0
+            </Value>
+            <Value property="mod_env2_level4"  type="number" >
+                0
+            </Value>
+            <Value property="mod_env2_loop"  type="number" >
+                0
+            </Value>
+            <Value property="mod_env2_loop_end"  type="number" >
+                3
+            </Value>
+            <Value property="mod_env2_loop_start"  type="number" >
+                0
+            </Value>
+            <Value property="mod_env2_mode"  type="number" >
+                2
+            </Value>
+            <Value property="mod_env2_scale"  type="number" >
+                0
+            </Value>
+            <Value property="mod_env2_scale_amount"  type="number" >
+                1
+            </Value>
+            <Value property="mod_env2_time1_div"  type="number" >
+                11
+            </Value>
+            <Value property="mod_env2_time1_sec"  type="number" >
+                0.099999904632568359375
+            </Value>
+            <Value property="mod_env2_time2_div"  type="number" >
+                11
+            </Value>
+            <Value property="mod_env2_time2_sec"  type="number" >
+                0.50107479095458984375
+            </Value>
+            <Value property="mod_env2_time3_div"  type="number" >
+                11
+            </Value>
+            <Value property="mod_env2_time3_sec"  type="number" >
+                0.50107479095458984375
+            </Value>
+            <Value property="mod_env2_time4_div"  type="number" >
+                11
+            </Value>
+            <Value property="mod_env2_time4_sec"  type="number" >
+                0.50107479095458984375
+            </Value>
+            <Value property="mod_env2_units"  type="number" >
+                0
+            </Value>
+            <Value property="mod_env3_curve1"  type="number" >
+                0.5
+            </Value>
+            <Value property="mod_env3_curve2"  type="number" >
+                0.5
+            </Value>
+            <Value property="mod_env3_curve3"  type="number" >
+                0.5
+            </Value>
+            <Value property="mod_env3_curve4"  type="number" >
+                0.5
+            </Value>
+            <Value property="mod_env3_draw_loop_end"  type="number" >
+                0
+            </Value>
+            <Value property="mod_env3_draw_loop_start"  type="number" >
+                0
+            </Value>
+            <Value property="mod_env3_draw_sustain_stage"  type="number" >
+                1
+            </Value>
+            <Value property="mod_env3_draw_time_div"  type="number" >
+                15
+            </Value>
+            <Value property="mod_env3_draw_time_sec"  type="number" >
+                0.6749999523162841796875
+            </Value>
+            <Value property="mod_env3_level0"  type="number" >
+                0
+            </Value>
+            <Value property="mod_env3_level1"  type="number" >
+                1
+            </Value>
+            <Value property="mod_env3_level2"  type="number" >
+                0.75
+            </Value>
+            <Value property="mod_env3_level3"  type="number" >
+                0
+            </Value>
+            <Value property="mod_env3_level4"  type="number" >
+                0
+            </Value>
+            <Value property="mod_env3_loop"  type="number" >
+                0
+            </Value>
+            <Value property="mod_env3_loop_end"  type="number" >
+                3
+            </Value>
+            <Value property="mod_env3_loop_start"  type="number" >
+                0
+            </Value>
+            <Value property="mod_env3_mode"  type="number" >
+                2
+            </Value>
+            <Value property="mod_env3_scale"  type="number" >
+                0
+            </Value>
+            <Value property="mod_env3_scale_amount"  type="number" >
+                1
+            </Value>
+            <Value property="mod_env3_time1_div"  type="number" >
+                11
+            </Value>
+            <Value property="mod_env3_time1_sec"  type="number" >
+                0.099999904632568359375
+            </Value>
+            <Value property="mod_env3_time2_div"  type="number" >
+                11
+            </Value>
+            <Value property="mod_env3_time2_sec"  type="number" >
+                0.50107479095458984375
+            </Value>
+            <Value property="mod_env3_time3_div"  type="number" >
+                11
+            </Value>
+            <Value property="mod_env3_time3_sec"  type="number" >
+                0.50107479095458984375
+            </Value>
+            <Value property="mod_env3_time4_div"  type="number" >
+                11
+            </Value>
+            <Value property="mod_env3_time4_sec"  type="number" >
+                0.50107479095458984375
+            </Value>
+            <Value property="mod_env3_units"  type="number" >
+                0
+            </Value>
+            <Value property="mod_env_select"  type="number" >
+                0
+            </Value>
+            <Value property="filter1_frequency"  type="number" >
+                1
+            </Value>
+            <Value property="filter1_env_amount"  type="number" >
+                0.5
+            </Value>
+            <Value property="filter1_env_select"  type="number" >
+                0
+            </Value>
+            <Value property="filter1_kbd_amount"  type="number" >
+                0
+            </Value>
+            <Value property="filter1_resonance"  type="number" >
+                0
+            </Value>
+            <Value property="filter1_type"  type="number" >
+                1
+            </Value>
+            <Value property="filter_1_to_2"  type="boolean" >
+                false
+            </Value>
+            <Value property="filter2_frequency"  type="number" >
+                0.75
+            </Value>
+            <Value property="filter2_env_amount"  type="number" >
+                0.5
+            </Value>
+            <Value property="filter2_env_select"  type="number" >
+                1
+            </Value>
+            <Value property="filter2_kbd_amount"  type="number" >
+                0
+            </Value>
+            <Value property="filter2_resonance"  type="number" >
+                0
+            </Value>
+            <Value property="filter2_type"  type="number" >
+                0
+            </Value>
+            <Value property="lfo1_fade"  type="number" >
+                0
+            </Value>
+            <Value property="lfo1_lag"  type="number" >
+                0
+            </Value>
+            <Value property="lfo1_rate"  type="number" >
+                0.25
+            </Value>
+            <Value property="lfo1_scale_amt"  type="number" >
+                1
+            </Value>
+            <Value property="lfo1_scale"  type="number" >
+                0
+            </Value>
+            <Value property="lfo1_sync"  type="number" >
+                0
+            </Value>
+            <Value property="lfo1_target_1"  type="number" >
+                0.5
+            </Value>
+            <Value property="lfo1_target_2"  type="number" >
+                0.5
+            </Value>
+            <Value property="lfo1_target_3"  type="number" >
+                0.5
+            </Value>
+            <Value property="lfo1_target_4"  type="number" >
+                0.5
+            </Value>
+            <Value property="lfo1_waveform"  type="number" >
+                0
+            </Value>
+            <Value property="lfo2_fade"  type="number" >
+                0
+            </Value>
+            <Value property="lfo2_lag"  type="number" >
+                0
+            </Value>
+            <Value property="lfo2_rate"  type="number" >
+                0.25
+            </Value>
+            <Value property="lfo2_scale_amt"  type="number" >
+                1
+            </Value>
+            <Value property="lfo2_scale"  type="number" >
+                0
+            </Value>
+            <Value property="lfo2_sync"  type="number" >
+                0
+            </Value>
+            <Value property="lfo2_target_1"  type="number" >
+                0.5
+            </Value>
+            <Value property="lfo2_target_2"  type="number" >
+                0.5
+            </Value>
+            <Value property="lfo2_target_3"  type="number" >
+                0.5
+            </Value>
+            <Value property="lfo2_target_4"  type="number" >
+                0.5
+            </Value>
+            <Value property="lfo2_waveform"  type="number" >
+                0
+            </Value>
+            <Value property="lfo3_fade"  type="number" >
+                0
+            </Value>
+            <Value property="lfo3_lag"  type="number" >
+                0
+            </Value>
+            <Value property="lfo3_rate"  type="number" >
+                0.25
+            </Value>
+            <Value property="lfo3_scale_amt"  type="number" >
+                1
+            </Value>
+            <Value property="lfo3_scale"  type="number" >
+                0
+            </Value>
+            <Value property="lfo3_sync"  type="number" >
+                0
+            </Value>
+            <Value property="lfo3_target_1"  type="number" >
+                0.5
+            </Value>
+            <Value property="lfo3_target_2"  type="number" >
+                0.5
+            </Value>
+            <Value property="lfo3_target_3"  type="number" >
+                0.5
+            </Value>
+            <Value property="lfo3_target_4"  type="number" >
+                0.5
+            </Value>
+            <Value property="lfo3_waveform"  type="number" >
+                0
+            </Value>
+            <Value property="lfo_select"  type="number" >
+                0
+            </Value>
+            <Value property="row1_destination1_amount"  type="number" >
+                0.5
+            </Value>
+            <Value property="row1_destination1_select"  type="number" >
+                0
+            </Value>
+            <Value property="row1_destination2_amount"  type="number" >
+                0.5
+            </Value>
+            <Value property="row1_destination2_select"  type="number" >
+                0
+            </Value>
+            <Value property="row1_destination3_amount"  type="number" >
+                0.5
+            </Value>
+            <Value property="row1_destination3_select"  type="number" >
+                0
+            </Value>
+            <Value property="row1_source_select"  type="number" >
+                0
+            </Value>
+            <Value property="row1_unipolar"  type="boolean" >
+                false
+            </Value>
+            <Value property="row2_destination1_amount"  type="number" >
+                0.5
+            </Value>
+            <Value property="row2_destination1_select"  type="number" >
+                0
+            </Value>
+            <Value property="row2_destination2_amount"  type="number" >
+                0.5
+            </Value>
+            <Value property="row2_destination2_select"  type="number" >
+                0
+            </Value>
+            <Value property="row2_destination3_amount"  type="number" >
+                0.5
+            </Value>
+            <Value property="row2_destination3_select"  type="number" >
+                0
+            </Value>
+            <Value property="row2_source_select"  type="number" >
+                0
+            </Value>
+            <Value property="row2_unipolar"  type="boolean" >
+                false
+            </Value>
+            <Value property="row3_destination1_amount"  type="number" >
+                0.5
+            </Value>
+            <Value property="row3_destination1_select"  type="number" >
+                0
+            </Value>
+            <Value property="row3_destination2_amount"  type="number" >
+                0.5
+            </Value>
+            <Value property="row3_destination2_select"  type="number" >
+                0
+            </Value>
+            <Value property="row3_destination3_amount"  type="number" >
+                0.5
+            </Value>
+            <Value property="row3_destination3_select"  type="number" >
+                0
+            </Value>
+            <Value property="row3_source_select"  type="number" >
+                0
+            </Value>
+            <Value property="row3_unipolar"  type="boolean" >
+                false
+            </Value>
+            <Value property="row4_destination1_amount"  type="number" >
+                0.5
+            </Value>
+            <Value property="row4_destination1_select"  type="number" >
+                0
+            </Value>
+            <Value property="row4_destination2_amount"  type="number" >
+                0.5
+            </Value>
+            <Value property="row4_destination2_select"  type="number" >
+                0
+            </Value>
+            <Value property="row4_destination3_amount"  type="number" >
+                0.5
+            </Value>
+            <Value property="row4_destination3_select"  type="number" >
+                0
+            </Value>
+            <Value property="row4_source_select"  type="number" >
+                0
+            </Value>
+            <Value property="row4_unipolar"  type="boolean" >
+                false
+            </Value>
+            <Value property="row5_destination1_amount"  type="number" >
+                0.5
+            </Value>
+            <Value property="row5_destination1_select"  type="number" >
+                0
+            </Value>
+            <Value property="row5_destination2_amount"  type="number" >
+                0.5
+            </Value>
+            <Value property="row5_destination2_select"  type="number" >
+                0
+            </Value>
+            <Value property="row5_destination3_amount"  type="number" >
+                0.5
+            </Value>
+            <Value property="row5_destination3_select"  type="number" >
+                0
+            </Value>
+            <Value property="row5_source_select"  type="number" >
+                0
+            </Value>
+            <Value property="row5_unipolar"  type="boolean" >
+                false
+            </Value>
+            <Value property="row6_destination1_amount"  type="number" >
+                0.072000026702880859375
+            </Value>
+            <Value property="row6_destination1_select"  type="number" >
+                1
+            </Value>
+            <Value property="row6_destination2_amount"  type="number" >
+                0.5
+            </Value>
+            <Value property="row6_destination2_select"  type="number" >
+                0
+            </Value>
+            <Value property="row6_destination3_amount"  type="number" >
+                0.5
+            </Value>
+            <Value property="row6_destination3_select"  type="number" >
+                0
+            </Value>
+            <Value property="row6_source_select"  type="number" >
+                4
+            </Value>
+            <Value property="row6_unipolar"  type="boolean" >
+                false
+            </Value>
+            <Value property="main_display_select"  type="number" >
+                0
+            </Value>
+            <Value property="osc1_drift"  type="number" >
+                0
+            </Value>
+            <Value property="osc1_eq_depth"  type="number" >
+                0.5
+            </Value>
+            <Value property="osc1_eq_enable"  type="number" >
+                0
+            </Value>
+            <Value property="osc1_eq_offset"  type="number" >
+                0.5
+            </Value>
+            <Value property="osc1_filter12_mix"  type="number" >
+                0
+            </Value>
+            <Value property="osc1_fine"  type="number" >
+                0.5
+            </Value>
+            <Value property="osc1_kbd"  type="number" >
+                1
+            </Value>
+            <Value property="osc1_mix"  type="number" >
+                1
+            </Value>
+            <Value property="osc1_mod1_amount"  type="number" >
+                0
+            </Value>
+            <Value property="osc1_mod1_post"  type="number" >
+                0
+            </Value>
+            <Value property="osc1_mod1_select"  type="number" >
+                0
+            </Value>
+            <Value property="osc1_mod2_amount"  type="number" >
+                0
+            </Value>
+            <Value property="osc1_mod2_post"  type="number" >
+                0
+            </Value>
+            <Value property="osc1_mod2_select"  type="number" >
+                0
+            </Value>
+            <Value property="osc1_mod3_amount"  type="number" >
+                0
+            </Value>
+            <Value property="osc1_mod3_post"  type="number" >
+                0
+            </Value>
+            <Value property="osc1_mod3_select"  type="number" >
+                0
+            </Value>
+            <Value property="osc1_noise"  type="number" >
+                0
+            </Value>
+            <Value property="osc1_octave"  type="number" >
+                3
+            </Value>
+            <Value property="osc1_pan"  type="number" >
+                0.5
+            </Value>
+            <Value property="osc1_random"  type="number" >
+                1
+            </Value>
+            <Value property="osc1_semi"  type="number" >
+                11
+            </Value>
+            <Value property="osc1_solo"  type="boolean" >
+                false
+            </Value>
+            <Value property="osc1_unison_blend"  type="number" >
+                1
+            </Value>
+            <Value property="osc1_unison_density"  type="number" >
+                0
+            </Value>
+            <Value property="osc1_unison_detune"  type="number" >
+                0
+            </Value>
+            <Value property="osc1_unison_spread"  type="number" >
+                0
+            </Value>
+            <Value property="osc1_unison_tuning"  type="number" >
+                3
+            </Value>
+            <Value property="osc1_wavetable_select"  type="number" >
+                0
+            </Value>
+            <Value property="osc1_wavetable_position"  type="number" >
+                0.50196075439453125
+            </Value>
+            <Value property="osc2_drift"  type="number" >
+                0
+            </Value>
+            <Value property="osc2_eq_depth"  type="number" >
+                0.5
+            </Value>
+            <Value property="osc2_eq_enable"  type="number" >
+                0
+            </Value>
+            <Value property="osc2_eq_offset"  type="number" >
+                0.5
+            </Value>
+            <Value property="osc2_filter12_mix"  type="number" >
+                0
+            </Value>
+            <Value property="osc2_fine"  type="number" >
+                0.5
+            </Value>
+            <Value property="osc2_kbd"  type="number" >
+                1
+            </Value>
+            <Value property="osc2_mix"  type="number" >
+                0
+            </Value>
+            <Value property="osc2_mod1_amount"  type="number" >
+                0
+            </Value>
+            <Value property="osc2_mod1_post"  type="number" >
+                0
+            </Value>
+            <Value property="osc2_mod1_select"  type="number" >
+                0
+            </Value>
+            <Value property="osc2_mod2_amount"  type="number" >
+                0
+            </Value>
+            <Value property="osc2_mod2_post"  type="number" >
+                0
+            </Value>
+            <Value property="osc2_mod2_select"  type="number" >
+                0
+            </Value>
+            <Value property="osc2_mod3_amount"  type="number" >
+                0
+            </Value>
+            <Value property="osc2_mod3_post"  type="number" >
+                0
+            </Value>
+            <Value property="osc2_mod3_select"  type="number" >
+                0
+            </Value>
+            <Value property="osc2_noise"  type="number" >
+                0
+            </Value>
+            <Value property="osc2_octave"  type="number" >
+                3
+            </Value>
+            <Value property="osc2_pan"  type="number" >
+                0.5
+            </Value>
+            <Value property="osc2_random"  type="number" >
+                1
+            </Value>
+            <Value property="osc2_semi"  type="number" >
+                11
+            </Value>
+            <Value property="osc2_solo"  type="boolean" >
+                false
+            </Value>
+            <Value property="osc2_unison_blend"  type="number" >
+                1
+            </Value>
+            <Value property="osc2_unison_density"  type="number" >
+                0
+            </Value>
+            <Value property="osc2_unison_detune"  type="number" >
+                0
+            </Value>
+            <Value property="osc2_unison_spread"  type="number" >
+                0
+            </Value>
+            <Value property="osc2_unison_tuning"  type="number" >
+                3
+            </Value>
+            <Value property="osc2_wavetable_select"  type="number" >
+                1000
+            </Value>
+            <Value property="osc2_wavetable_position"  type="number" >
+                0.50196075439453125
+            </Value>
+            <Value property="osc3_drift"  type="number" >
+                0
+            </Value>
+            <Value property="osc3_eq_depth"  type="number" >
+                0.5
+            </Value>
+            <Value property="osc3_eq_enable"  type="number" >
+                0
+            </Value>
+            <Value property="osc3_eq_offset"  type="number" >
+                0.5
+            </Value>
+            <Value property="osc3_filter12_mix"  type="number" >
+                0
+            </Value>
+            <Value property="osc3_fine"  type="number" >
+                0.5
+            </Value>
+            <Value property="osc3_kbd"  type="number" >
+                1
+            </Value>
+            <Value property="osc3_mix"  type="number" >
+                0
+            </Value>
+            <Value property="osc3_mod1_amount"  type="number" >
+                0
+            </Value>
+            <Value property="osc3_mod1_post"  type="number" >
+                0
+            </Value>
+            <Value property="osc3_mod1_select"  type="number" >
+                0
+            </Value>
+            <Value property="osc3_mod2_amount"  type="number" >
+                0
+            </Value>
+            <Value property="osc3_mod2_post"  type="number" >
+                0
+            </Value>
+            <Value property="osc3_mod2_select"  type="number" >
+                0
+            </Value>
+            <Value property="osc3_mod3_amount"  type="number" >
+                0
+            </Value>
+            <Value property="osc3_mod3_post"  type="number" >
+                0
+            </Value>
+            <Value property="osc3_mod3_select"  type="number" >
+                0
+            </Value>
+            <Value property="osc3_noise"  type="number" >
+                0
+            </Value>
+            <Value property="osc3_octave"  type="number" >
+                3
+            </Value>
+            <Value property="osc3_pan"  type="number" >
+                0.5
+            </Value>
+            <Value property="osc3_random"  type="number" >
+                1
+            </Value>
+            <Value property="osc3_semi"  type="number" >
+                11
+            </Value>
+            <Value property="osc3_solo"  type="boolean" >
+                false
+            </Value>
+            <Value property="osc3_unison_blend"  type="number" >
+                1
+            </Value>
+            <Value property="osc3_unison_density"  type="number" >
+                0
+            </Value>
+            <Value property="osc3_unison_detune"  type="number" >
+                0
+            </Value>
+            <Value property="osc3_unison_spread"  type="number" >
+                0
+            </Value>
+            <Value property="osc3_unison_tuning"  type="number" >
+                3
+            </Value>
+            <Value property="osc3_wavetable_select"  type="number" >
+                1000
+            </Value>
+            <Value property="osc3_wavetable_position"  type="number" >
+                0.50196075439453125
+            </Value>
+            <Value property="osc4_drift"  type="number" >
+                0
+            </Value>
+            <Value property="osc4_eq_depth"  type="number" >
+                0.5
+            </Value>
+            <Value property="osc4_eq_enable"  type="number" >
+                0
+            </Value>
+            <Value property="osc4_eq_offset"  type="number" >
+                0.5
+            </Value>
+            <Value property="osc4_filter12_mix"  type="number" >
+                0
+            </Value>
+            <Value property="osc4_fine"  type="number" >
+                0.5
+            </Value>
+            <Value property="osc4_kbd"  type="number" >
+                1
+            </Value>
+            <Value property="osc4_mix"  type="number" >
+                0
+            </Value>
+            <Value property="osc4_mod1_amount"  type="number" >
+                0
+            </Value>
+            <Value property="osc4_mod1_post"  type="number" >
+                0
+            </Value>
+            <Value property="osc4_mod1_select"  type="number" >
+                0
+            </Value>
+            <Value property="osc4_mod2_amount"  type="number" >
+                0
+            </Value>
+            <Value property="osc4_mod2_post"  type="number" >
+                0
+            </Value>
+            <Value property="osc4_mod2_select"  type="number" >
+                0
+            </Value>
+            <Value property="osc4_mod3_amount"  type="number" >
+                0
+            </Value>
+            <Value property="osc4_mod3_post"  type="number" >
+                0
+            </Value>
+            <Value property="osc4_mod3_select"  type="number" >
+                0
+            </Value>
+            <Value property="osc4_noise"  type="number" >
+                0
+            </Value>
+            <Value property="osc4_octave"  type="number" >
+                3
+            </Value>
+            <Value property="osc4_pan"  type="number" >
+                0.5
+            </Value>
+            <Value property="osc4_random"  type="number" >
+                1
+            </Value>
+            <Value property="osc4_semi"  type="number" >
+                11
+            </Value>
+            <Value property="osc4_solo"  type="boolean" >
+                false
+            </Value>
+            <Value property="osc4_unison_blend"  type="number" >
+                1
+            </Value>
+            <Value property="osc4_unison_density"  type="number" >
+                0
+            </Value>
+            <Value property="osc4_unison_detune"  type="number" >
+                0
+            </Value>
+            <Value property="osc4_unison_spread"  type="number" >
+                0
+            </Value>
+            <Value property="osc4_unison_tuning"  type="number" >
+                3
+            </Value>
+            <Value property="osc4_wavetable_select"  type="number" >
+                1000
+            </Value>
+            <Value property="osc4_wavetable_position"  type="number" >
+                0.50196075439453125
+            </Value>
+            <Value property="osc_select"  type="number" >
+                0
+            </Value>
+            <Value property="cc_seq_cc1_lag"  type="number" >
+                0
+            </Value>
+            <Value property="cc_seq_cc2_lag"  type="number" >
+                0
+            </Value>
+            <Value property="cc_seq_direction"  type="number" >
+                0
+            </Value>
+            <Value property="cc_seq_mode"  type="number" >
+                0
+            </Value>
+            <Value property="cc_seq_num_steps"  type="number" >
+                3
+            </Value>
+            <Value property="cc_seq_rate"  type="number" >
+                7
+            </Value>
+            <Value property="cc_seq_select"  type="number" >
+                0
+            </Value>
+            <Value property="cc_seq_swing"  type="number" >
+                0.5
+            </Value>
+            <Value property="note_seq_direction"  type="number" >
+                0
+            </Value>
+            <Value property="note_seq_mode"  type="number" >
+                0
+            </Value>
+            <Value property="note_seq_num_steps"  type="number" >
+                3
+            </Value>
+            <Value property="note_seq_rate"  type="number" >
+                7
+            </Value>
+            <Value property="note_seq_select"  type="number" >
+                0
+            </Value>
+            <Value property="note_seq_swing"  type="number" >
+                0.5
+            </Value>
+            <Value property="pitch_wheel_range"  type="number" >
+                2
+            </Value>
+            <Value property="polyphony"  type="number" >
+                7
+            </Value>
+            <Value property="legato"  type="number" >
+                0
+            </Value>
+            <Value property="portamento_amount"  type="number" >
+                0
+            </Value>
+            <Value property="portamento_mode"  type="number" >
+                1
+            </Value>
+            <Value property="portamento_glide_mode"  type="number" >
+                1
+            </Value>
+            <Value property="portamento_time_mode"  type="number" >
+                0
+            </Value>
+            <Value property="volume"  type="number" >
+                0.69999980926513671875
+            </Value>
+            <Value property="note_seq_notes"  type="string" >
+                3834313030303030383431303030303038343130303030303834313030303030383431303030303038343130303030303834313030303030383431303030303038343130303030303834313030303030383431303030303038343130303030303834313030303030383431303030303038343130303030303834313030303030
+            </Value>
+            <Value property="note_seq_gates"  type="string" >
+                3765303030303030376530303030303037653030303030303765303030303030376530303030303037653030303030303765303030303030376530303030303037653030303030303765303030303030376530303030303037653030303030303765303030303030376530303030303037653030303030303765303030303030
+            </Value>
+            <Value property="note_seq_velocities"  type="string" >
+                3765303030303030376530303030303037653030303030303765303030303030376530303030303037653030303030303765303030303030376530303030303037653030303030303765303030303030376530303030303037653030303030303765303030303030376530303030303037653030303030303765303030303030
+            </Value>
+            <Value property="cc_seq_cc1"  type="string" >
+                3765303030303030376530303030303037653030303030303765303030303030376530303030303037653030303030303765303030303030376530303030303037653030303030303765303030303030376530303030303037653030303030303765303030303030376530303030303037653030303030303765303030303030
+            </Value>
+            <Value property="cc_seq_cc2"  type="string" >
+                3765303030303030376530303030303037653030303030303765303030303030376530303030303037653030303030303765303030303030376530303030303037653030303030303765303030303030376530303030303037653030303030303765303030303030376530303030303037653030303030303765303030303030
+            </Value>
+            <Value property="osc1_morph_select"  type="number" >
+                0
+            </Value>
+            <Value property="osc2_morph_select"  type="number" >
+                0
+            </Value>
+            <Value property="osc3_morph_select"  type="number" >
+                0
+            </Value>
+            <Value property="osc4_morph_select"  type="number" >
+                0
+            </Value>
+            <Value property="osc1_env_morph_select"  type="number" >
+                1
+            </Value>
+            <Value property="osc2_env_morph_select"  type="number" >
+                1
+            </Value>
+            <Value property="osc3_env_morph_select"  type="number" >
+                1
+            </Value>
+            <Value property="osc4_env_morph_select"  type="number" >
+                1
+            </Value>
+            <Value property="osc1_magnitudes"  type="string" >
+                3766303030303030
+            </Value>
+            <Value property="osc1_phases"  type="string" >
+                3030303030303030
+            </Value>
+            <Value property="osc2_magnitudes"  type="string" >
+                3766303030303030
+            </Value>
+            <Value property="osc2_phases"  type="string" >
+                3030303030303030
+            </Value>
+            <Value property="osc3_magnitudes"  type="string" >
+                3766303030303030
+            </Value>
+            <Value property="osc3_phases"  type="string" >
+                3030303030303030
+            </Value>
+            <Value property="osc4_magnitudes"  type="string" >
+                3766303030303030
+            </Value>
+            <Value property="osc4_phases"  type="string" >
+                3030303030303030
+            </Value>
+            <Value property="osc1_eq_draw_points"  type="string" >
+                303030303030303037653030303030303765303030303030376630303030303037653030303030303765303030303030
+            </Value>
+            <Value property="osc2_eq_draw_points"  type="string" >
+                303030303030303037653030303030303765303030303030376630303030303037653030303030303765303030303030
+            </Value>
+            <Value property="osc3_eq_draw_points"  type="string" >
+                303030303030303037653030303030303765303030303030376630303030303037653030303030303765303030303030
+            </Value>
+            <Value property="osc4_eq_draw_points"  type="string" >
+                303030303030303037653030303030303765303030303030376630303030303037653030303030303765303030303030
+            </Value>
+            <Value property="mod_env1_draw_points"  type="string" >
+                303030303030303037663030303030303765303030303030376630303030303030303030303030303765303030303030
+            </Value>
+            <Value property="mod_env2_draw_points"  type="string" >
+                303030303030303037663030303030303765303030303030376630303030303030303030303030303765303030303030
+            </Value>
+            <Value property="mod_env3_draw_points"  type="string" >
+                303030303030303037663030303030303765303030303030376630303030303030303030303030303765303030303030
+            </Value>
+            <Value property="amp_env1_draw_points"  type="string" >
+                303030303030303037663030303030303765303030303030376630303030303030303030303030303765303030303030
+            </Value>
+            <Value property="amp_env2_draw_points"  type="string" >
+                303030303030303037663030303030303765303030303030376630303030303030303030303030303765303030303030
+            </Value>
+            <Value property="fx_comp_slot"  type="number" >
+                0
+            </Value>
+            <Value property="fx_eq_slot"  type="number" >
+                1
+            </Value>
+            <Value property="fx_dist_slot"  type="number" >
+                2
+            </Value>
+            <Value property="fx_phaser_slot"  type="number" >
+                3
+            </Value>
+            <Value property="fx_delay_slot"  type="number" >
+                4
+            </Value>
+            <Value property="fx_reverb_slot"  type="number" >
+                5
+            </Value>
+            <Value property="drag_select_row"  type="number" >
+                0
+            </Value>
+            <Value property="drag_select_dest"  type="number" >
+                0
+            </Value>
+            <Value property="oversampling"  type="number" >
+                0
+            </Value>
+            <Value property="version"  type="number" >
+                1
+            </Value>
+            <Value property="table_size"  type="number" >
+                1
+            </Value>
+            <Value property="filter_oversampling"  type="number" >
+                1
+            </Value>
+            <Value property="distortion_oversampling"  type="number" >
+                1
+            </Value>
+        </Object>
+        <Object name="device_host" >
+            <Value property="sample_context"  type="number" >
+                0
+            </Value>
+        </Object>
+        <Object name="transport" />
+        <Object name="user_samples/0" >
+            <Value property="root_key"  type="number" >
+                60
+            </Value>
+            <Value property="tune_cents"  type="number" >
+                50
+            </Value>
+            <Value property="play_range_start"  type="number" >
+                0
+            </Value>
+            <Value property="play_range_end"  type="number" >
+                1
+            </Value>
+            <Value property="loop_range_start"  type="number" >
+                0
+            </Value>
+            <Value property="loop_range_end"  type="number" >
+                1
+            </Value>
+            <Value property="loop_mode"  type="number" >
+                0
+            </Value>
+            <Value property="preview_volume_level"  type="number" >
+                100
+            </Value>
+            <Value property="item"  type="sample" />
+        </Object>
+        <Object name="user_samples/1" >
+            <Value property="root_key"  type="number" >
+                60
+            </Value>
+            <Value property="tune_cents"  type="number" >
+                50
+            </Value>
+            <Value property="play_range_start"  type="number" >
+                0
+            </Value>
+            <Value property="play_range_end"  type="number" >
+                1
+            </Value>
+            <Value property="loop_range_start"  type="number" >
+                0
+            </Value>
+            <Value property="loop_range_end"  type="number" >
+                1
+            </Value>
+            <Value property="loop_mode"  type="number" >
+                0
+            </Value>
+            <Value property="preview_volume_level"  type="number" >
+                100
+            </Value>
+            <Value property="item"  type="sample" />
+        </Object>
+        <Object name="user_samples/2" >
+            <Value property="root_key"  type="number" >
+                60
+            </Value>
+            <Value property="tune_cents"  type="number" >
+                50
+            </Value>
+            <Value property="play_range_start"  type="number" >
+                0
+            </Value>
+            <Value property="play_range_end"  type="number" >
+                1
+            </Value>
+            <Value property="loop_range_start"  type="number" >
+                0
+            </Value>
+            <Value property="loop_range_end"  type="number" >
+                1
+            </Value>
+            <Value property="loop_mode"  type="number" >
+                0
+            </Value>
+            <Value property="preview_volume_level"  type="number" >
+                100
+            </Value>
+            <Value property="item"  type="sample" />
+        </Object>
+        <Object name="user_samples/3" >
+            <Value property="root_key"  type="number" >
+                60
+            </Value>
+            <Value property="tune_cents"  type="number" >
+                50
+            </Value>
+            <Value property="play_range_start"  type="number" >
+                0
+            </Value>
+            <Value property="play_range_end"  type="number" >
+                1
+            </Value>
+            <Value property="loop_range_start"  type="number" >
+                0
+            </Value>
+            <Value property="loop_range_end"  type="number" >
+                1
+            </Value>
+            <Value property="loop_mode"  type="number" >
+                0
+            </Value>
+            <Value property="preview_volume_level"  type="number" >
+                100
+            </Value>
+            <Value property="item"  type="sample" />
+        </Object>
+    </Properties>
+</JukeboxPatch>

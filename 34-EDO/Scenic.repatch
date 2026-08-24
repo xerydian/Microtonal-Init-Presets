@@ -1,0 +1,1013 @@
+<?xml version="1.0"?>
+<JukeboxPatch version="2.0"  deviceProductID="se.propellerheads.ScenicHybrid"  deviceVersion="1.1" >
+    <DeviceNameInEnglish>
+        Scenic Hybrid Instrument
+    </DeviceNameInEnglish>
+    <Samples/>
+    <Properties>
+        <Object name="custom_properties" >
+            <Value property="EA_OnOff"  type="boolean" >
+                true
+            </Value>
+            <Value property="EA_Granular_Mode"  type="boolean" >
+                false
+            </Value>
+            <Value property="EA_Sample"  type="number" >
+                52
+            </Value>
+            <Value property="EA_Start_Pos"  type="number" >
+                0
+            </Value>
+            <Value property="EA_Reverse"  type="boolean" >
+                false
+            </Value>
+            <Value property="EA_Pitch"  type="number" >
+                0.5
+            </Value>
+            <Value property="EA_Pitch_Mod_Source"  type="number" >
+                0
+            </Value>
+            <Value property="EA_Pitch_Mod_Amount"  type="number" >
+                0.5
+            </Value>
+            <Value property="EA_Granular_Pos_Mod_Source"  type="number" >
+                0
+            </Value>
+            <Value property="EA_Granular_Pos_Mod_Amount"  type="number" >
+                0.5
+            </Value>
+            <Value property="EA_Granular_Rate"  type="number" >
+                0.5
+            </Value>
+            <Value property="EA_Granular_Rate_Mod_Source"  type="number" >
+                0
+            </Value>
+            <Value property="EA_Granular_Rate_Mod_Amount"  type="number" >
+                0.5
+            </Value>
+            <Value property="EA_Granular_Size"  type="number" >
+                0.49634265899658203125
+            </Value>
+            <Value property="EA_Granular_Size_Mod_Source"  type="number" >
+                0
+            </Value>
+            <Value property="EA_Granular_Size_Mod_Amount"  type="number" >
+                0.5
+            </Value>
+            <Value property="EA_Granular_Random_Pitch"  type="number" >
+                0
+            </Value>
+            <Value property="EA_Granular_Random_Pos"  type="number" >
+                0.0780999660491943359375
+            </Value>
+            <Value property="EA_PolyMono"  type="number" >
+                0
+            </Value>
+            <Value property="EA_Portamento_Mode"  type="number" >
+                0
+            </Value>
+            <Value property="EA_Portamento_Time"  type="number" >
+                0.5
+            </Value>
+            <Value property="EA_PBRange"  type="number" >
+                0.166666507720947265625
+            </Value>
+            <Value property="EA_Filter_OnOff"  type="boolean" >
+                false
+            </Value>
+            <Value property="EA_FilterType"  type="number" >
+                3
+            </Value>
+            <Value property="EA_Frequency"  type="number" >
+                0.5486009120941162109375
+            </Value>
+            <Value property="EA_Resonance"  type="number" >
+                0
+            </Value>
+            <Value property="EA_FilterEnv_ModInt"  type="number" >
+                0.5
+            </Value>
+            <Value property="EA_Velocity_ModInt"  type="number" >
+                0
+            </Value>
+            <Value property="EA_Keyboard_ModInt"  type="number" >
+                1
+            </Value>
+            <Value property="EA_FilterEnv_Attack"  type="number" >
+                0
+            </Value>
+            <Value property="EA_FilterEnv_Decay"  type="number" >
+                0.49950885772705078125
+            </Value>
+            <Value property="EA_FilterEnv_Sustain"  type="number" >
+                0
+            </Value>
+            <Value property="EA_FilterEnv_Release"  type="number" >
+                0.0976159572601318359375
+            </Value>
+            <Value property="EA_Frequency_Mod_Source"  type="number" >
+                0
+            </Value>
+            <Value property="EA_Frequency_Mod_Amount"  type="number" >
+                0.5
+            </Value>
+            <Value property="EA_Volume"  type="number" >
+                0.7943284511566162109375
+            </Value>
+            <Value property="EA_Velocity"  type="number" >
+                0.75
+            </Value>
+            <Value property="EA_Pan"  type="number" >
+                0.5
+            </Value>
+            <Value property="EA_AmpEnv_Attack"  type="number" >
+                0
+            </Value>
+            <Value property="EA_AmpEnv_Decay"  type="number" >
+                0.4994919300079345703125
+            </Value>
+            <Value property="EA_AmpEnv_Sustain"  type="number" >
+                1
+            </Value>
+            <Value property="EA_AmpEnv_Release"  type="number" >
+                0
+            </Value>
+            <Value property="EA_Pan_Mod_Source"  type="number" >
+                0
+            </Value>
+            <Value property="EA_Pan_Mod_Amount"  type="number" >
+                0.5
+            </Value>
+            <Value property="EA_Amp_Mod_Source"  type="number" >
+                0
+            </Value>
+            <Value property="EA_Amp_Mod_Amount"  type="number" >
+                0.5
+            </Value>
+            <Value property="EB_OnOff"  type="boolean" >
+                false
+            </Value>
+            <Value property="EB_Granular_Mode"  type="boolean" >
+                false
+            </Value>
+            <Value property="EB_Sample"  type="number" >
+                44
+            </Value>
+            <Value property="EB_Start_Pos"  type="number" >
+                0
+            </Value>
+            <Value property="EB_Reverse"  type="boolean" >
+                false
+            </Value>
+            <Value property="EB_Pitch"  type="number" >
+                0.5
+            </Value>
+            <Value property="EB_Pitch_Mod_Source"  type="number" >
+                0
+            </Value>
+            <Value property="EB_Pitch_Mod_Amount"  type="number" >
+                0.5
+            </Value>
+            <Value property="EB_Granular_Pos_Mod_Source"  type="number" >
+                0
+            </Value>
+            <Value property="EB_Granular_Pos_Mod_Amount"  type="number" >
+                0.5
+            </Value>
+            <Value property="EB_Granular_Rate"  type="number" >
+                0.75
+            </Value>
+            <Value property="EB_Granular_Rate_Mod_Source"  type="number" >
+                0
+            </Value>
+            <Value property="EB_Granular_Rate_Mod_Amount"  type="number" >
+                0.5
+            </Value>
+            <Value property="EB_Granular_Size"  type="number" >
+                0.49634265899658203125
+            </Value>
+            <Value property="EB_Granular_Size_Mod_Source"  type="number" >
+                0
+            </Value>
+            <Value property="EB_Granular_Size_Mod_Amount"  type="number" >
+                0.5
+            </Value>
+            <Value property="EB_Granular_Random_Pitch"  type="number" >
+                0
+            </Value>
+            <Value property="EB_Granular_Random_Pos"  type="number" >
+                0
+            </Value>
+            <Value property="EB_PolyMono"  type="number" >
+                0
+            </Value>
+            <Value property="EB_Portamento_Mode"  type="number" >
+                0
+            </Value>
+            <Value property="EB_Portamento_Time"  type="number" >
+                0.5
+            </Value>
+            <Value property="EB_PBRange"  type="number" >
+                0.166666507720947265625
+            </Value>
+            <Value property="EB_Filter_OnOff"  type="boolean" >
+                false
+            </Value>
+            <Value property="EB_FilterType"  type="number" >
+                3
+            </Value>
+            <Value property="EB_Frequency"  type="number" >
+                0.5486009120941162109375
+            </Value>
+            <Value property="EB_Resonance"  type="number" >
+                0
+            </Value>
+            <Value property="EB_FilterEnv_ModInt"  type="number" >
+                0.5
+            </Value>
+            <Value property="EB_Velocity_ModInt"  type="number" >
+                0
+            </Value>
+            <Value property="EB_Keyboard_ModInt"  type="number" >
+                1
+            </Value>
+            <Value property="EB_FilterEnv_Attack"  type="number" >
+                0
+            </Value>
+            <Value property="EB_FilterEnv_Decay"  type="number" >
+                0.49950885772705078125
+            </Value>
+            <Value property="EB_FilterEnv_Sustain"  type="number" >
+                0
+            </Value>
+            <Value property="EB_FilterEnv_Release"  type="number" >
+                0.0976159572601318359375
+            </Value>
+            <Value property="EB_Frequency_Mod_Source"  type="number" >
+                0
+            </Value>
+            <Value property="EB_Frequency_Mod_Amount"  type="number" >
+                0.5
+            </Value>
+            <Value property="EB_Volume"  type="number" >
+                0.7943284511566162109375
+            </Value>
+            <Value property="EB_Velocity"  type="number" >
+                0.75
+            </Value>
+            <Value property="EB_Pan"  type="number" >
+                0.5
+            </Value>
+            <Value property="EB_AmpEnv_Attack"  type="number" >
+                0
+            </Value>
+            <Value property="EB_AmpEnv_Decay"  type="number" >
+                0.4994919300079345703125
+            </Value>
+            <Value property="EB_AmpEnv_Sustain"  type="number" >
+                1
+            </Value>
+            <Value property="EB_AmpEnv_Release"  type="number" >
+                0.28333282470703125
+            </Value>
+            <Value property="EB_Pan_Mod_Source"  type="number" >
+                0
+            </Value>
+            <Value property="EB_Pan_Mod_Amount"  type="number" >
+                0.5
+            </Value>
+            <Value property="EB_Amp_Mod_Source"  type="number" >
+                0
+            </Value>
+            <Value property="EB_Amp_Mod_Amount"  type="number" >
+                0.5
+            </Value>
+            <Value property="EBoth_FilterEnv_Link"  type="boolean" >
+                false
+            </Value>
+            <Value property="EBoth_AmpEnv_Link"  type="boolean" >
+                false
+            </Value>
+            <Value property="EA_InsertFX_OnOff"  type="boolean" >
+                false
+            </Value>
+            <Value property="EA_InsertFX_Chorus_OnOff"  type="boolean" >
+                false
+            </Value>
+            <Value property="EA_InsertFX_Chorus_Rate"  type="number" >
+                0.5
+            </Value>
+            <Value property="EA_InsertFX_Chorus_Depth"  type="number" >
+                0.5
+            </Value>
+            <Value property="EA_InsertFX_Chorus_Man"  type="number" >
+                0.176499843597412109375
+            </Value>
+            <Value property="EA_InsertFX_Chorus_Voices"  type="number" >
+                1
+            </Value>
+            <Value property="EA_InsertFX_Chorus_Mix"  type="number" >
+                0.5
+            </Value>
+            <Value property="EA_InsertFX_Chorus_Mix_Mod_Source"  type="number" >
+                0
+            </Value>
+            <Value property="EA_InsertFX_Chorus_Mix_Mod_Amount"  type="number" >
+                0.5
+            </Value>
+            <Value property="EA_InsertFX_Phaser_OnOff"  type="boolean" >
+                false
+            </Value>
+            <Value property="EA_InsertFX_Phaser_Rate"  type="number" >
+                0.2029998302459716796875
+            </Value>
+            <Value property="EA_InsertFX_Phaser_Depth"  type="number" >
+                0.5
+            </Value>
+            <Value property="EA_InsertFX_Phaser_Feedback"  type="number" >
+                0.5
+            </Value>
+            <Value property="EA_InsertFX_Phaser_Man"  type="number" >
+                0.5
+            </Value>
+            <Value property="EA_InsertFX_Phaser_Spread"  type="number" >
+                0.5
+            </Value>
+            <Value property="EA_InsertFX_Phaser_Mix"  type="number" >
+                0.5
+            </Value>
+            <Value property="EA_InsertFX_Phaser_Man_Mod_Source"  type="number" >
+                0
+            </Value>
+            <Value property="EA_InsertFX_Phaser_Man_Mod_Amount"  type="number" >
+                0.5
+            </Value>
+            <Value property="EA_InsertFX_Phaser_Mix_Mod_Source"  type="number" >
+                0
+            </Value>
+            <Value property="EA_InsertFX_Phaser_Mix_Mod_Amount"  type="number" >
+                0.5
+            </Value>
+            <Value property="EA_InsertFX_Sat_OnOff"  type="boolean" >
+                false
+            </Value>
+            <Value property="EA_InsertFX_Sat_Threshold"  type="number" >
+                0.5
+            </Value>
+            <Value property="EA_InsertFX_Sat_Drive"  type="number" >
+                0.2999999523162841796875
+            </Value>
+            <Value property="EA_InsertFX_Sat_Density"  type="number" >
+                0.75
+            </Value>
+            <Value property="EA_InsertFX_Sat_HighBypass"  type="number" >
+                0.5
+            </Value>
+            <Value property="EA_InsertFX_Sat_Level"  type="number" >
+                0.4649999141693115234375
+            </Value>
+            <Value property="EA_InsertFX_Sat_Drive_Mod_Source"  type="number" >
+                0
+            </Value>
+            <Value property="EA_InsertFX_Sat_Drive_Mod_Amount"  type="number" >
+                0.5
+            </Value>
+            <Value property="EA_InsertFX_TS_OnOff"  type="boolean" >
+                false
+            </Value>
+            <Value property="EA_InsertFX_TS_Low"  type="number" >
+                1
+            </Value>
+            <Value property="EA_InsertFX_TS_LowFreq"  type="number" >
+                0.3333299160003662109375
+            </Value>
+            <Value property="EA_InsertFX_TS_Mid"  type="number" >
+                1
+            </Value>
+            <Value property="EA_InsertFX_TS_HighFreq"  type="number" >
+                0.6666698455810546875
+            </Value>
+            <Value property="EA_InsertFX_TS_High"  type="number" >
+                1
+            </Value>
+            <Value property="EA_InsertFX_TS_LowFreq_Mod_Source"  type="number" >
+                0
+            </Value>
+            <Value property="EA_InsertFX_TS_LowFreq_Mod_Amount"  type="number" >
+                0.5
+            </Value>
+            <Value property="EA_InsertFX_TS_HighFreq_Mod_Source"  type="number" >
+                0
+            </Value>
+            <Value property="EA_InsertFX_TS_HighFreq_Mod_Amount"  type="number" >
+                0.5
+            </Value>
+            <Value property="EB_InsertFX_OnOff"  type="boolean" >
+                false
+            </Value>
+            <Value property="EB_InsertFX_Chorus_OnOff"  type="boolean" >
+                false
+            </Value>
+            <Value property="EB_InsertFX_Chorus_Rate"  type="number" >
+                0.5
+            </Value>
+            <Value property="EB_InsertFX_Chorus_Depth"  type="number" >
+                0.5
+            </Value>
+            <Value property="EB_InsertFX_Chorus_Man"  type="number" >
+                0.176499843597412109375
+            </Value>
+            <Value property="EB_InsertFX_Chorus_Voices"  type="number" >
+                1
+            </Value>
+            <Value property="EB_InsertFX_Chorus_Mix"  type="number" >
+                0.5
+            </Value>
+            <Value property="EB_InsertFX_Chorus_Mix_Mod_Source"  type="number" >
+                0
+            </Value>
+            <Value property="EB_InsertFX_Chorus_Mix_Mod_Amount"  type="number" >
+                0.5
+            </Value>
+            <Value property="EB_InsertFX_Phaser_OnOff"  type="boolean" >
+                false
+            </Value>
+            <Value property="EB_InsertFX_Phaser_Rate"  type="number" >
+                0.2029998302459716796875
+            </Value>
+            <Value property="EB_InsertFX_Phaser_Depth"  type="number" >
+                0.5
+            </Value>
+            <Value property="EB_InsertFX_Phaser_Feedback"  type="number" >
+                0.5
+            </Value>
+            <Value property="EB_InsertFX_Phaser_Man"  type="number" >
+                0.5
+            </Value>
+            <Value property="EB_InsertFX_Phaser_Spread"  type="number" >
+                0.5
+            </Value>
+            <Value property="EB_InsertFX_Phaser_Mix"  type="number" >
+                0.5
+            </Value>
+            <Value property="EB_InsertFX_Phaser_Man_Mod_Source"  type="number" >
+                0
+            </Value>
+            <Value property="EB_InsertFX_Phaser_Man_Mod_Amount"  type="number" >
+                0.5
+            </Value>
+            <Value property="EB_InsertFX_Phaser_Mix_Mod_Source"  type="number" >
+                0
+            </Value>
+            <Value property="EB_InsertFX_Phaser_Mix_Mod_Amount"  type="number" >
+                0.5
+            </Value>
+            <Value property="EB_InsertFX_Sat_OnOff"  type="boolean" >
+                false
+            </Value>
+            <Value property="EB_InsertFX_Sat_Threshold"  type="number" >
+                0.5
+            </Value>
+            <Value property="EB_InsertFX_Sat_Drive"  type="number" >
+                0.2999999523162841796875
+            </Value>
+            <Value property="EB_InsertFX_Sat_Density"  type="number" >
+                0.75
+            </Value>
+            <Value property="EB_InsertFX_Sat_HighBypass"  type="number" >
+                0.5
+            </Value>
+            <Value property="EB_InsertFX_Sat_Level"  type="number" >
+                0.4649999141693115234375
+            </Value>
+            <Value property="EB_InsertFX_Sat_Drive_Mod_Source"  type="number" >
+                0
+            </Value>
+            <Value property="EB_InsertFX_Sat_Drive_Mod_Amount"  type="number" >
+                0.5
+            </Value>
+            <Value property="EB_InsertFX_TS_OnOff"  type="boolean" >
+                false
+            </Value>
+            <Value property="EB_InsertFX_TS_Low"  type="number" >
+                1
+            </Value>
+            <Value property="EB_InsertFX_TS_LowFreq"  type="number" >
+                0.3333299160003662109375
+            </Value>
+            <Value property="EB_InsertFX_TS_Mid"  type="number" >
+                1
+            </Value>
+            <Value property="EB_InsertFX_TS_HighFreq"  type="number" >
+                0.6666698455810546875
+            </Value>
+            <Value property="EB_InsertFX_TS_High"  type="number" >
+                1
+            </Value>
+            <Value property="EB_InsertFX_TS_LowFreq_Mod_Source"  type="number" >
+                0
+            </Value>
+            <Value property="EB_InsertFX_TS_LowFreq_Mod_Amount"  type="number" >
+                0.5
+            </Value>
+            <Value property="EB_InsertFX_TS_HighFreq_Mod_Source"  type="number" >
+                0
+            </Value>
+            <Value property="EB_InsertFX_TS_HighFreq_Mod_Amount"  type="number" >
+                0.5
+            </Value>
+            <Value property="EA_EchoReverb_OnOff"  type="boolean" >
+                true
+            </Value>
+            <Value property="EA_Echo_OnOff"  type="boolean" >
+                false
+            </Value>
+            <Value property="EA_Echo_Level"  type="number" >
+                0.6310002803802490234375
+            </Value>
+            <Value property="EA_Echo_Time"  type="number" >
+                0.2999999523162841796875
+            </Value>
+            <Value property="EA_Echo_Tempo_Sync"  type="boolean" >
+                true
+            </Value>
+            <Value property="EA_Echo_Synced_Time"  type="number" >
+                7
+            </Value>
+            <Value property="EA_Echo_Feedback"  type="number" >
+                0.5
+            </Value>
+            <Value property="EA_Echo_Flutter"  type="number" >
+                0
+            </Value>
+            <Value property="EA_Echo_Saturation"  type="number" >
+                0.19999980926513671875
+            </Value>
+            <Value property="EA_Echo_High_Damping"  type="number" >
+                1
+            </Value>
+            <Value property="EA_Echo_Low_Damping"  type="number" >
+                0
+            </Value>
+            <Value property="EA_Echo_Pan"  type="number" >
+                0.5
+            </Value>
+            <Value property="EA_Echo_Level_Mod_Source"  type="number" >
+                0
+            </Value>
+            <Value property="EA_Echo_Level_Mod_Amount"  type="number" >
+                0.5
+            </Value>
+            <Value property="EA_Echo_Time_Mod_Source"  type="number" >
+                0
+            </Value>
+            <Value property="EA_Echo_Time_Mod_Amount"  type="number" >
+                0.5
+            </Value>
+            <Value property="EA_Echo_Pan_Mod_Source"  type="number" >
+                0
+            </Value>
+            <Value property="EA_Echo_Pan_Mod_Amount"  type="number" >
+                0.5
+            </Value>
+            <Value property="EB_EchoReverb_OnOff"  type="boolean" >
+                false
+            </Value>
+            <Value property="EB_Echo_OnOff"  type="boolean" >
+                false
+            </Value>
+            <Value property="EB_Echo_Level"  type="number" >
+                0.6310002803802490234375
+            </Value>
+            <Value property="EB_Echo_Time"  type="number" >
+                0.2999999523162841796875
+            </Value>
+            <Value property="EB_Echo_Tempo_Sync"  type="boolean" >
+                true
+            </Value>
+            <Value property="EB_Echo_Synced_Time"  type="number" >
+                7
+            </Value>
+            <Value property="EB_Echo_Feedback"  type="number" >
+                0.5
+            </Value>
+            <Value property="EB_Echo_Flutter"  type="number" >
+                0
+            </Value>
+            <Value property="EB_Echo_Saturation"  type="number" >
+                0.19999980926513671875
+            </Value>
+            <Value property="EB_Echo_High_Damping"  type="number" >
+                1
+            </Value>
+            <Value property="EB_Echo_Low_Damping"  type="number" >
+                0
+            </Value>
+            <Value property="EB_Echo_Pan"  type="number" >
+                0.5
+            </Value>
+            <Value property="EB_Echo_Level_Mod_Source"  type="number" >
+                0
+            </Value>
+            <Value property="EB_Echo_Level_Mod_Amount"  type="number" >
+                0.5
+            </Value>
+            <Value property="EB_Echo_Time_Mod_Source"  type="number" >
+                0
+            </Value>
+            <Value property="EB_Echo_Time_Mod_Amount"  type="number" >
+                0.5
+            </Value>
+            <Value property="EB_Echo_Pan_Mod_Source"  type="number" >
+                0
+            </Value>
+            <Value property="EB_Echo_Pan_Mod_Amount"  type="number" >
+                0.5
+            </Value>
+            <Value property="EA_Reverb_OnOff"  type="boolean" >
+                false
+            </Value>
+            <Value property="EA_Reverb_Level"  type="number" >
+                0.50203800201416015625
+            </Value>
+            <Value property="EA_Reverb_Time"  type="number" >
+                0.5
+            </Value>
+            <Value property="EA_Reverb_Pre_Delay"  type="number" >
+                0.25
+            </Value>
+            <Value property="EA_Reverb_Low_Damping"  type="number" >
+                0
+            </Value>
+            <Value property="EA_Reverb_Damping"  type="number" >
+                0.75
+            </Value>
+            <Value property="EA_Reverb_Level_Mod_Source"  type="number" >
+                0
+            </Value>
+            <Value property="EA_Reverb_Level_Mod_Amount"  type="number" >
+                0.5
+            </Value>
+            <Value property="EA_Reverb_Time_Mod_Source"  type="number" >
+                0
+            </Value>
+            <Value property="EA_Reverb_Time_Mod_Amount"  type="number" >
+                0.5
+            </Value>
+            <Value property="EB_Reverb_OnOff"  type="boolean" >
+                false
+            </Value>
+            <Value property="EB_Reverb_Level"  type="number" >
+                0.50203800201416015625
+            </Value>
+            <Value property="EB_Reverb_Time"  type="number" >
+                0.5
+            </Value>
+            <Value property="EB_Reverb_Pre_Delay"  type="number" >
+                0.25
+            </Value>
+            <Value property="EB_Reverb_Low_Damping"  type="number" >
+                0
+            </Value>
+            <Value property="EB_Reverb_Damping"  type="number" >
+                0.75
+            </Value>
+            <Value property="EB_Reverb_Level_Mod_Source"  type="number" >
+                0
+            </Value>
+            <Value property="EB_Reverb_Level_Mod_Amount"  type="number" >
+                0.5
+            </Value>
+            <Value property="EB_Reverb_Time_Mod_Source"  type="number" >
+                0
+            </Value>
+            <Value property="EB_Reverb_Time_Mod_Amount"  type="number" >
+                0.5
+            </Value>
+            <Value property="MasterFX_OnOff"  type="boolean" >
+                true
+            </Value>
+            <Value property="MasterFX_Volume"  type="number" >
+                0.6556465625762939453125
+            </Value>
+            <Value property="MasterFX_Reverb_OnOff"  type="boolean" >
+                false
+            </Value>
+            <Value property="MasterFX_Reverb_DryWet"  type="number" >
+                0.1499998569488525390625
+            </Value>
+            <Value property="MasterFX_Reverb_DryWet_Mod_Source"  type="number" >
+                0
+            </Value>
+            <Value property="MasterFX_Reverb_DryWet_Mod_Amount"  type="number" >
+                0.5
+            </Value>
+            <Value property="MasterFX_Reverb_Impulse_Select"  type="number" >
+                0
+            </Value>
+            <Value property="MasterFX_Reverb_Pre_Delay"  type="number" >
+                0
+            </Value>
+            <Value property="MasterFX_Reverb_Time"  type="number" >
+                0.7999999523162841796875
+            </Value>
+            <Value property="MasterFX_Reverb_LoCut"  type="number" >
+                0
+            </Value>
+            <Value property="MasterFX_Reverb_HiCut"  type="number" >
+                1
+            </Value>
+            <Value property="MasterFX_Reverb_Width"  type="number" >
+                1
+            </Value>
+            <Value property="MasterFX_Comp_OnOff"  type="boolean" >
+                false
+            </Value>
+            <Value property="MasterFX_Comp_Threshold"  type="number" >
+                0.5
+            </Value>
+            <Value property="MasterFX_Comp_Mode"  type="number" >
+                2
+            </Value>
+            <Value property="MasterFX_Comp_Ratio"  type="number" >
+                0.32499980926513671875
+            </Value>
+            <Value property="MasterFX_Comp_Attack"  type="number" >
+                0.25
+            </Value>
+            <Value property="MasterFX_Comp_Release"  type="number" >
+                0.5
+            </Value>
+            <Value property="MasterFX_Comp_Gain"  type="number" >
+                0.1499998569488525390625
+            </Value>
+            <Value property="MasterFX_Comp_DryWet"  type="number" >
+                1
+            </Value>
+            <Value property="LFO_1_OnOff"  type="boolean" >
+                true
+            </Value>
+            <Value property="LFO_1_Wave"  type="number" >
+                0
+            </Value>
+            <Value property="LFO_1_Rate"  type="number" >
+                0.5
+            </Value>
+            <Value property="LFO_1_Synced_Rate"  type="number" >
+                12
+            </Value>
+            <Value property="LFO_1_Sync"  type="boolean" >
+                false
+            </Value>
+            <Value property="LFO_1_Key"  type="boolean" >
+                false
+            </Value>
+            <Value property="LFO_1_Global"  type="boolean" >
+                false
+            </Value>
+            <Value property="LFO_1_Rate_Mod_Source"  type="number" >
+                0
+            </Value>
+            <Value property="LFO_1_Rate_Mod_Amount"  type="number" >
+                0.5
+            </Value>
+            <Value property="LFO_2_OnOff"  type="boolean" >
+                true
+            </Value>
+            <Value property="LFO_2_Wave"  type="number" >
+                0
+            </Value>
+            <Value property="LFO_2_Rate"  type="number" >
+                0.5
+            </Value>
+            <Value property="LFO_2_Synced_Rate"  type="number" >
+                12
+            </Value>
+            <Value property="LFO_2_Sync"  type="boolean" >
+                true
+            </Value>
+            <Value property="LFO_2_Key"  type="boolean" >
+                false
+            </Value>
+            <Value property="LFO_2_Global"  type="boolean" >
+                false
+            </Value>
+            <Value property="LFO_2_Rate_Mod_Source"  type="number" >
+                0
+            </Value>
+            <Value property="LFO_2_Rate_Mod_Amount"  type="number" >
+                0.5
+            </Value>
+            <Value property="Pulses_OnOff"  type="boolean" >
+                true
+            </Value>
+            <Value property="Pulses_PatternSelect"  type="number" >
+                0
+            </Value>
+            <Value property="Pulses_Rate"  type="number" >
+                15
+            </Value>
+            <Value property="Pulses_Attack"  type="number" >
+                0
+            </Value>
+            <Value property="Pulses_Decay"  type="number" >
+                0.5
+            </Value>
+            <Value property="MM_1_Source"  type="number" >
+                0
+            </Value>
+            <Value property="MM_1_Amount"  type="number" >
+                0.5
+            </Value>
+            <Value property="MM_1_Dest"  type="number" >
+                0
+            </Value>
+            <Value property="MM_2_Source"  type="number" >
+                0
+            </Value>
+            <Value property="MM_2_Amount"  type="number" >
+                0.5
+            </Value>
+            <Value property="MM_2_Dest"  type="number" >
+                0
+            </Value>
+            <Value property="MM_3_Source"  type="number" >
+                0
+            </Value>
+            <Value property="MM_3_Amount"  type="number" >
+                0.5
+            </Value>
+            <Value property="MM_3_Dest"  type="number" >
+                0
+            </Value>
+            <Value property="MM_4_Source"  type="number" >
+                0
+            </Value>
+            <Value property="MM_4_Amount"  type="number" >
+                0.5
+            </Value>
+            <Value property="MM_4_Dest"  type="number" >
+                0
+            </Value>
+            <Value property="MM_5_Source"  type="number" >
+                0
+            </Value>
+            <Value property="MM_5_Amount"  type="number" >
+                0.5
+            </Value>
+            <Value property="MM_5_Dest"  type="number" >
+                0
+            </Value>
+            <Value property="MM_6_Source"  type="number" >
+                0
+            </Value>
+            <Value property="MM_6_Amount"  type="number" >
+                0.5
+            </Value>
+            <Value property="MM_6_Dest"  type="number" >
+                0
+            </Value>
+            <Value property="MM_7_Source"  type="number" >
+                0
+            </Value>
+            <Value property="MM_7_Amount"  type="number" >
+                0.5
+            </Value>
+            <Value property="MM_7_Dest"  type="number" >
+                0
+            </Value>
+            <Value property="MM_8_Source"  type="number" >
+                0
+            </Value>
+            <Value property="MM_8_Amount"  type="number" >
+                0.5
+            </Value>
+            <Value property="MM_8_Dest"  type="number" >
+                0
+            </Value>
+            <Value property="MM_9_Source"  type="number" >
+                0
+            </Value>
+            <Value property="MM_9_Amount"  type="number" >
+                0.5
+            </Value>
+            <Value property="MM_9_Dest"  type="number" >
+                0
+            </Value>
+            <Value property="MM_10_Source"  type="number" >
+                0
+            </Value>
+            <Value property="MM_10_Amount"  type="number" >
+                0.5
+            </Value>
+            <Value property="MM_10_Dest"  type="number" >
+                0
+            </Value>
+            <Value property="MM_11_Source"  type="number" >
+                2
+            </Value>
+            <Value property="MM_11_Amount"  type="number" >
+                0.4586999416351318359375
+            </Value>
+            <Value property="MM_11_Dest"  type="number" >
+                5
+            </Value>
+            <Value property="MM_12_Source"  type="number" >
+                2
+            </Value>
+            <Value property="MM_12_Amount"  type="number" >
+                0.102099895477294921875
+            </Value>
+            <Value property="MM_12_Dest"  type="number" >
+                5
+            </Value>
+            <Value property="Macro1"  type="number" >
+                0
+            </Value>
+            <Value property="Macro2"  type="number" >
+                0
+            </Value>
+            <Value property="Macro3"  type="number" >
+                0
+            </Value>
+            <Value property="Engine_Balance"  type="number" >
+                0
+            </Value>
+            <Value property="EA_User_Sample_Root_Note"  type="number" >
+                36
+            </Value>
+            <Value property="EB_User_Sample_Root_Note"  type="number" >
+                36
+            </Value>
+            <Value property="EA_Granular_Pos"  type="number" >
+                0
+            </Value>
+            <Value property="EB_Granular_Pos"  type="number" >
+                0
+            </Value>
+            <Value property="Macro1_Name"  type="string" >
+                4D6163726F2031
+            </Value>
+            <Value property="Macro2_Name"  type="string" >
+                4D6163726F2032
+            </Value>
+            <Value property="Macro3_Name"  type="string" >
+                4D6163726F2033
+            </Value>
+        </Object>
+        <Object name="device_host" >
+            <Value property="sample_context"  type="number" >
+                0
+            </Value>
+        </Object>
+        <Object name="transport" />
+        <Object name="user_samples/0" >
+            <Value property="tune_cents"  type="number" >
+                50
+            </Value>
+            <Value property="play_range_start"  type="number" >
+                0
+            </Value>
+            <Value property="play_range_end"  type="number" >
+                1
+            </Value>
+            <Value property="loop_range_start"  type="number" >
+                0
+            </Value>
+            <Value property="loop_range_end"  type="number" >
+                1
+            </Value>
+            <Value property="loop_mode"  type="number" >
+                0
+            </Value>
+            <Value property="preview_volume_level"  type="number" >
+                100
+            </Value>
+            <Value property="item"  type="sample" />
+        </Object>
+        <Object name="user_samples/1" >
+            <Value property="tune_cents"  type="number" >
+                50
+            </Value>
+            <Value property="play_range_start"  type="number" >
+                0
+            </Value>
+            <Value property="play_range_end"  type="number" >
+                1
+            </Value>
+            <Value property="loop_range_start"  type="number" >
+                0
+            </Value>
+            <Value property="loop_range_end"  type="number" >
+                1
+            </Value>
+            <Value property="loop_mode"  type="number" >
+                0
+            </Value>
+            <Value property="preview_volume_level"  type="number" >
+                100
+            </Value>
+            <Value property="item"  type="sample" />
+        </Object>
+    </Properties>
+</JukeboxPatch>
