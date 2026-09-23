@@ -13,10 +13,12 @@ EDOs = [
     14, 15, 16,  # xenharmonic
     17, 22, 27,  # superpyth
     19, 31, 43,  # meantone
+    29,          # good fifth
     34, 41, 53,  # approximate JI
 ]
 EDTs = [
-    26       # Double Bohlen-Pierce
+    26,  # Double Bohlen-Pierce
+    30,  # Stretched 19EDO
 ]
 Carlos = [  # wendycarlos.com/resources/pitch.html
     ("Alpha", 15.385),
