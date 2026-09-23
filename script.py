@@ -1,3 +1,5 @@
+from math import sqrt
+
 import pygit2
 import os
 
@@ -14,7 +16,7 @@ EDOs = [
     34, 41, 53,  # approximate JI
 ]
 EDTs = [
-    13, 26       # Bohlen-Pierce
+    26       # Double Bohlen-Pierce
 ],
 Carlos = {
     "Alpha": 78.0,
@@ -40,9 +42,9 @@ def make_dir(*args):
 
 # Create tunings
 
-def generate_tunings(tuning_group, **kwargs):
+def generate_tunings(tuning_group, tuning_f, **kwargs):
     for x in EDOs:
-        tuning = f"{x}-EDO"
+        tuning = tuning_f(x)
         make_dir(tuning_group, tuning)
         for template in templates:
             filename = str(template.name).replace(".jinja", f" ({tuning}).repatch")
@@ -53,8 +55,10 @@ def generate_tunings(tuning_group, **kwargs):
 
 generate_tunings (
     tuning_group = "EDOs",
+    tuning_f = (lambda x: f"{x}-EDO"),
     tracking = (lambda x: (12 / x)),
     tracking_upper_half = (lambda x: (1 + (12 / x)) / 2),
+    tracking_sqrt = (lambda x: sqrt(12 / x)),
 )
 
 for x in EDTs:
