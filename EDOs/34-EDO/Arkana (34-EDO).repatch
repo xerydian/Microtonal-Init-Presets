@@ -31,7 +31,7 @@
                 0
             </Value>
             <Value property="OscALenKbFollow"  type="number" >
-                0.2926828861236572265625
+                0.35294117647058826
             </Value>
             <Value property="OscALenRand"  type="number" >
                 0
@@ -151,7 +151,7 @@
                 0
             </Value>
             <Value property="OscBLenKbFollow"  type="number" >
-                1
+                0.35294117647058826
             </Value>
             <Value property="OscBLenRand"  type="number" >
                 0
