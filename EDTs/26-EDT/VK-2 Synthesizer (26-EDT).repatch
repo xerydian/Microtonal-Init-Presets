@@ -279,7 +279,7 @@
                 0.5
             </Value>
             <Value property="osc1_frequency_mod_1_amount"  type="number" >
-                {{ upper_half( tracking(x) ) }}
+                0.8657605770894976
             </Value>
             <Value property="osc1_frequency_mod_1_selection"  type="number" >
                 1
@@ -327,7 +327,7 @@
                 0.5
             </Value>
             <Value property="osc2_frequency_mod_1_amount"  type="number" >
-                {{ upper_half( tracking(x) ) }}
+                0.8657605770894976
             </Value>
             <Value property="osc2_frequency_mod_1_selection"  type="number" >
                 1
@@ -378,7 +378,7 @@
                 0.5
             </Value>
             <Value property="osc3_frequency_mod_1_amount"  type="number" >
-                {{ upper_half( tracking(x) ) }}
+                0.8657605770894976
             </Value>
             <Value property="osc3_frequency_mod_1_selection"  type="number" >
                 1
