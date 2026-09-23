@@ -6,10 +6,10 @@
     <Properties>
         <Object name="custom_properties" >
             <Value property="Osc 1 Kbd"  type="number" >
-                0.387096881866455078125
+                0.75
             </Value>
             <Value property="Osc 1 Kbd B"  type="number" >
-                0.387096881866455078125
+                0.75
             </Value>
             <Value property="Osc 1 Pitch"  type="number" >
                 24
@@ -66,10 +66,10 @@
                 0
             </Value>
             <Value property="Osc 2 Kbd"  type="number" >
-                0.387096881866455078125
+                0.75
             </Value>
             <Value property="Osc 2 Kbd B"  type="number" >
-                0.387096881866455078125
+                0.75
             </Value>
             <Value property="Osc 2 Pitch"  type="number" >
                 24
@@ -144,10 +144,10 @@
                 1
             </Value>
             <Value property="Filter Kbd"  type="number" >
-                0
+                0.75
             </Value>
             <Value property="Filter Kbd B"  type="number" >
-                0
+                0.75
             </Value>
             <Value property="Filter Mod"  type="number" >
                 0.5
