@@ -76,7 +76,7 @@
                 0.5
             </Value>
             <Value property="Formant Kbd"  type="number" >
-                0.3529412746429443359375
+                0.2926829268292683
             </Value>
             <Value property="Formant Tune"  type="number" >
                 0.5
@@ -100,7 +100,7 @@
                 1
             </Value>
             <Value property="Pitch Kbd"  type="number" >
-                0.3529412746429443359375
+                0.2926829268292683
             </Value>
             <Value property="Speed"  type="number" >
                 0.5
@@ -217,7 +217,7 @@
                 0
             </Value>
             <Value property="LFO 3 SyncRate"  type="number" >
-                17
+                10
             </Value>
             <Value property="LFO 3 Wave"  type="number" >
                 0
@@ -232,7 +232,7 @@
                 3
             </Value>
             <Value property="Filter Kbd"  type="number" >
-                0
+                0.2926829268292683
             </Value>
             <Value property="Filter Env2"  type="number" >
                 0
@@ -340,7 +340,7 @@
                 0.5
             </Value>
             <Value property="Dist Type"  type="number" >
-                5
+                0
             </Value>
             <Value property="Dist Tone"  type="number" >
                 0.7999999523162841796875

@@ -61,7 +61,7 @@
                 2
             </Value>
             <Value property="Algorithm"  type="number" >
-                0
+                3
             </Value>
             <Value property="Oct"  type="number" >
                 2
@@ -76,7 +76,7 @@
                 0.5
             </Value>
             <Value property="Formant Kbd"  type="number" >
-                0.5
+                0.3870967741935484
             </Value>
             <Value property="Formant Tune"  type="number" >
                 0.5
@@ -100,7 +100,7 @@
                 1
             </Value>
             <Value property="Pitch Kbd"  type="number" >
-                0.5
+                0.3870967741935484
             </Value>
             <Value property="Speed"  type="number" >
                 0.5
@@ -232,7 +232,7 @@
                 3
             </Value>
             <Value property="Filter Kbd"  type="number" >
-                0
+                0.3870967741935484
             </Value>
             <Value property="Filter Env2"  type="number" >
                 0

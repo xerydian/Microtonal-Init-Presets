@@ -76,7 +76,7 @@
                 0.5
             </Value>
             <Value property="Formant Kbd"  type="number" >
-                0.7500998973846435546875
+                0.27906976744186046
             </Value>
             <Value property="Formant Tune"  type="number" >
                 0.5
@@ -100,7 +100,7 @@
                 1
             </Value>
             <Value property="Pitch Kbd"  type="number" >
-                0.7497999668121337890625
+                0.27906976744186046
             </Value>
             <Value property="Speed"  type="number" >
                 0.5
@@ -232,7 +232,7 @@
                 3
             </Value>
             <Value property="Filter Kbd"  type="number" >
-                0
+                0.27906976744186046
             </Value>
             <Value property="Filter Env2"  type="number" >
                 0
