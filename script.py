@@ -18,11 +18,12 @@ EDOs = [
 EDTs = [
     26       # Double Bohlen-Pierce
 ]
-Carlos = {
-    "Alpha": 78.0,
-    "Beta": 63.8,
-    "Gamma": 35.1,
-}
+Carlos = [  # wendycarlos.com/resources/pitch.html
+    ("Alpha", 15.385),
+    ("Beta" , 18.809),
+    ("Gamma", 34.188),
+]
+
 
 
 # Basic Setup
@@ -56,6 +57,9 @@ def generate_tunings(tuning_group, tuning_f, tracking):
                 )
                 f.write(repatch)
 
+
+# Generate patch files
+
 generate_tunings (
     tuning_group = "EDOs",
     tuning_f = (lambda x: f"{x}-EDO"),
@@ -66,4 +70,10 @@ generate_tunings (
     tuning_group = "EDTs",
     tuning_f = (lambda x: f"{x}-EDT"),
     tracking = (lambda x: ( (log(3) / log(2)) * (12 / x) )),
+)
+
+generate_tunings (
+    tuning_group = "Carlos",
+    tuning_f = (lambda t: t[0]),
+    tracking = (lambda t: (12 / t[1])),
 )
