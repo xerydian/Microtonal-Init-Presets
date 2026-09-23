@@ -3,7 +3,25 @@
     <DeviceNameInEnglish>
         Arkana Granular Synth
     </DeviceNameInEnglish>
-    <Samples/>
+    <Samples>
+        <SampleReference trueName="CS_SAW_C1.aif"  userFriendlyName="CS_SAW_C1.aif"  type="sample" >
+            <ReFill name="Reason Factory Sound Bank"  url="www.reasonstudios.com" />
+            <DatabasePath>
+                <ReFillName>
+                    Reason Factory Sound Bank
+                </ReFillName>
+                <Path>
+                    /Reason Factory Sound Bank/NN19 Sampler Patches/Synth Raw Elements/Yamaha CS 80 Samples/CS_SAW_C1.aif
+                </Path>
+            </DatabasePath>
+            <AbsolutePath>
+                <Volume name=""  type="unknown" />
+                <Path partOfReFill="yes" >
+                    /Macintosh HD/Library/Application Support/Propellerhead Software/Soundbanks/Reason 13/Factory Sound Bank.rfl/NN19 Sampler Patches/Synth Raw Elements/Yamaha CS 80 Samples/CS_SAW_C1.aif
+                </Path>
+            </AbsolutePath>
+        </SampleReference>
+    </Samples>
     <Properties>
         <Object name="custom_properties" >
             <Value property="OscAEnable"  type="boolean" >
@@ -13,7 +31,7 @@
                 0
             </Value>
             <Value property="OscALenKbFollow"  type="number" >
-                0.75
+                {{ tracking(x) }}
             </Value>
             <Value property="OscALenRand"  type="number" >
                 0
@@ -133,7 +151,7 @@
                 0
             </Value>
             <Value property="OscBLenKbFollow"  type="number" >
-                1
+                {{ tracking(x) }}
             </Value>
             <Value property="OscBLenRand"  type="number" >
                 0
@@ -434,7 +452,9 @@
         </Object>
         <Object name="transport" />
         <Object name="user_samples/0" >
-            <Value property="item"  type="sample" />
+            <Value property="item"  type="sample" >
+                0
+            </Value>
         </Object>
         <Object name="user_samples/1" >
             <Value property="item"  type="sample" />
