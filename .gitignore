@@ -1,0 +1,7 @@
+.python-version
+.venv/
+uv.lock
+
+# macOS, Windows metadata
+.DS_Store
+Thumbs.db

@@ -51,7 +51,7 @@
                 0.5
             </Value>
             <Value property="A Pitch Kbd"  type="number" >
-                0.5
+                0.2926829268292683
             </Value>
             <Value property="A Gen Select"  type="number" >
                 0
@@ -108,7 +108,7 @@
                 0.5
             </Value>
             <Value property="B Pitch Kbd"  type="number" >
-                0.5
+                0.2926829268292683
             </Value>
             <Value property="B Gen Select"  type="number" >
                 0
