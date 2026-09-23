@@ -31,7 +31,7 @@
                 0.5
             </Value>
             <Value property="Osc1 Pitch Kbd"  type="number" >
-                0.5
+                0.27906976744186046
             </Value>
             <Value property="Osc1 Shape"  type="number" >
                 1
@@ -61,7 +61,7 @@
                 0
             </Value>
             <Value property="Osc1 Filter Kbd"  type="number" >
-                1
+                0.27906976744186046
             </Value>
             <Value property="Osc1 Filter Mod"  type="number" >
                 0
@@ -97,10 +97,10 @@
                 0.5
             </Value>
             <Value property="Osc2 Pitch Kbd"  type="number" >
-                0.5
+                0.27906976744186046
             </Value>
             <Value property="Osc2 Shape"  type="number" >
-                0
+                1
             </Value>
             <Value property="Osc2 Shape Amt"  type="number" >
                 0
@@ -127,7 +127,7 @@
                 0
             </Value>
             <Value property="Osc2 Filter Kbd"  type="number" >
-                1
+                0.27906976744186046
             </Value>
             <Value property="Osc2 Filter Mod"  type="number" >
                 0
@@ -163,10 +163,10 @@
                 0.5
             </Value>
             <Value property="Osc3 Pitch Kbd"  type="number" >
-                0.5
+                0.27906976744186046
             </Value>
             <Value property="Osc3 Shape"  type="number" >
-                0
+                1
             </Value>
             <Value property="Osc3 Shape Amt"  type="number" >
                 0
@@ -193,7 +193,7 @@
                 0
             </Value>
             <Value property="Osc3 Filter Kbd"  type="number" >
-                1
+                0.27906976744186046
             </Value>
             <Value property="Osc3 Filter Mod"  type="number" >
                 0
@@ -247,7 +247,7 @@
                 0
             </Value>
             <Value property="Filter Kbd"  type="number" >
-                1
+                0.27906976744186046
             </Value>
             <Value property="Filter Mod"  type="number" >
                 0
