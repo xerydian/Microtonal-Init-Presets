@@ -45,7 +45,11 @@ def make_dir(*args):
 
 # Create tunings
 
-def generate_tunings(tuning_group, tuning_f, tracking):
+def generate_tunings (
+    tuning_group,  tuning_f,  tracking,
+    get_x = lambda x: x,
+    monopoly = lambda x: (8/x) - (1/6),
+):
     for x in eval(tuning_group):
         tuning = tuning_f(x)
         make_dir(tuning_group, tuning)
@@ -54,8 +58,11 @@ def generate_tunings(tuning_group, tuning_f, tracking):
             filepath = Path(tuning_group) / tuning / filename
             with open(filepath, "w") as f:
                 repatch = template.render(
-                    x = x, tracking = tracking, sqrt = sqrt,
+                    x = get_x(x),
+                    tracking = tracking,
+                    sqrt = sqrt,
                     upper_half = (lambda x: (1 + x) / 2),
+                    monopoly = monopoly,
                 )
                 f.write(repatch)
 
@@ -72,10 +79,12 @@ generate_tunings (
     tuning_group = "EDTs",
     tuning_f = (lambda x: f"{x}-EDT"),
     tracking = (lambda x: log2(3) * 12 / x),
+    monopoly = (lambda x: log2(3) * (8 / x) - (1/6)),
 )
 
 generate_tunings (
     tuning_group = "Carlos",
     tuning_f = (lambda t: t[0]),
-    tracking = (lambda t: (12 / t[1])),
+    get_x = (lambda t: t[1]),
+    tracking = (lambda x: (12 / x)),
 )
