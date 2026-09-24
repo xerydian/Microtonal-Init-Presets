@@ -48,7 +48,7 @@
                 1
             </Value>
             <Value property="SG1_Track"  type="number" >
-                0.8169925001442313
+                0.8169925001442312
             </Value>
             <Value property="SG1_Attack"  type="number" >
                 0
@@ -96,7 +96,7 @@
                 1
             </Value>
             <Value property="SG2_Track"  type="number" >
-                0.8169925001442313
+                0.8169925001442312
             </Value>
             <Value property="SG2_Attack"  type="number" >
                 0

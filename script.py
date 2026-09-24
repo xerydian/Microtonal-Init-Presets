@@ -1,4 +1,4 @@
-from math import log, sqrt
+from math import log2, sqrt
 
 import pygit2
 import os
@@ -71,7 +71,7 @@ generate_tunings (
 generate_tunings (
     tuning_group = "EDTs",
     tuning_f = (lambda x: f"{x}-EDT"),
-    tracking = (lambda x: ( (log(3) / log(2)) * (12 / x) )),
+    tracking = (lambda x: log2(3) * 12 / x),
 )
 
 generate_tunings (
