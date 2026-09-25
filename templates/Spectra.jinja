@@ -229,7 +229,7 @@
                 0
             </Value>
             <Value property="filteronetrackingamount"  type="number" >
-                {{ third_quarter( tracking(x) ) }}
+                {{ remap(tracking(x), 0.5, 0.75) }}
             </Value>
             <Value property="filteroneenvamount"  type="number" >
                 0.5
@@ -256,7 +256,7 @@
                 0
             </Value>
             <Value property="filtertwotrackingamount"  type="number" >
-                {{ third_quarter( tracking(x) ) }}
+                {{ remap(tracking(x), 0.5, 0.75) }}
             </Value>
             <Value property="filtertwoenvamount"  type="number" >
                 0.5

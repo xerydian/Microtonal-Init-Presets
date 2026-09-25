@@ -61,8 +61,7 @@ def generate_tunings (
                     x = get_x(x),
                     tracking = tracking,
                     sqrt = sqrt,
-                    upper_half = (lambda x: (1 + x) / 2),
-                    third_quarter = (lambda x: (2 + x) / 4),
+                    remap = (lambda x, min, max: x*(max-min) + min),
                     monopoly = monopoly,
                 )
                 f.write(repatch)

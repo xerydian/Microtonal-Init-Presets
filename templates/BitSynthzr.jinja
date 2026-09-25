@@ -48,7 +48,7 @@
                 1
             </Value>
             <Value property="SG1_Track"  type="number" >
-                {{ upper_half( tracking(x) ) }}
+                {{ remap(tracking(x), 0.5, 1) }}
             </Value>
             <Value property="SG1_Attack"  type="number" >
                 0
@@ -96,7 +96,7 @@
                 1
             </Value>
             <Value property="SG2_Track"  type="number" >
-                {{ upper_half( tracking(x) ) }}
+                {{ remap(tracking(x), 0.5, 1) }}
             </Value>
             <Value property="SG2_Attack"  type="number" >
                 0
