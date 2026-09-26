@@ -70,7 +70,7 @@
                 true
             </Value>
             <Value property="genonekeytracking"  type="number" >
-                {{ tracking(x) }}
+                {{ tracking }}
             </Value>
             <Value property="genonewaveform"  type="number" >
                 0
@@ -142,7 +142,7 @@
                 false
             </Value>
             <Value property="gentwokeytracking"  type="number" >
-                {{ tracking(x) }}
+                {{ tracking }}
             </Value>
             <Value property="gentwowaveform"  type="number" >
                 0
@@ -229,7 +229,7 @@
                 0
             </Value>
             <Value property="filteronetrackingamount"  type="number" >
-                {{ remap(tracking(x), 0.5, 0.75) }}
+                {{ if_keytrack_filter( remap(tracking, 0.5, 0.75), 0.5 ) }}
             </Value>
             <Value property="filteroneenvamount"  type="number" >
                 0.5
@@ -256,7 +256,7 @@
                 0
             </Value>
             <Value property="filtertwotrackingamount"  type="number" >
-                {{ remap(tracking(x), 0.5, 0.75) }}
+                {{ if_keytrack_filter( remap(tracking, 0.5, 0.75), 0.5 ) }}
             </Value>
             <Value property="filtertwoenvamount"  type="number" >
                 0.5

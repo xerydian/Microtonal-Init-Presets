@@ -36,7 +36,7 @@
                 0
             </Value>
             <Value property="osc1keytrack"  type="number" >
-                {{ tracking(x) }}
+                {{ tracking }}
             </Value>
             <Value property="osc1pan"  type="number" >
                 0.5
@@ -69,7 +69,7 @@
                 0
             </Value>
             <Value property="osc2keytrack"  type="number" >
-                {{ tracking(x) }}
+                {{ tracking }}
             </Value>
             <Value property="osc2pan"  type="number" >
                 0.5
@@ -111,7 +111,7 @@
                 0
             </Value>
             <Value property="filterkeytrack"  type="number" >
-                {{ tracking(x) }}
+                {{ if_keytrack_filter( tracking ) }}
             </Value>
             <Value property="fltenvatk"  type="number" >
                 0

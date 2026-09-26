@@ -9,17 +9,11 @@ authors = [
 requires-python = ">=3.14"
 dependencies = [
     "jinja2>=3.1.6",
-    "pygit2>=1.20.1",
 ]
 
 [project.scripts]
-# microtonal-init-presets = "microtonal_init_presets:main"
+generate-presets = "microtonal_init_presets:main"
 
 [build-system]
 requires = ["uv_build>=0.12.17,<0.13.0"]
 build-backend = "uv_build"
-
-[tool.uv.workspace]
-members = [
-    "we",
-]

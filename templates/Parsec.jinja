@@ -33,7 +33,7 @@
                 1
             </Value>
             <Value property="A Cutoff Kbd"  type="number" >
-                0.5
+                {{ if_keytrack_filter( tracking ) }}
             </Value>
             <Value property="A Cutoff Freq"  type="number" >
                 0.5
@@ -51,7 +51,7 @@
                 0.5
             </Value>
             <Value property="A Pitch Kbd"  type="number" >
-                {{ tracking(x) }}
+                {{ tracking }}
             </Value>
             <Value property="A Gen Select"  type="number" >
                 0
@@ -93,7 +93,7 @@
                 0.5
             </Value>
             <Value property="B Cutoff Freq"  type="number" >
-                0.5
+                {{ if_keytrack_filter( tracking ) }}
             </Value>
             <Value property="B Cutoff Slope"  type="number" >
                 0.5
@@ -108,7 +108,7 @@
                 0.5
             </Value>
             <Value property="B Pitch Kbd"  type="number" >
-                {{ tracking(x) }}
+                {{ tracking }}
             </Value>
             <Value property="B Gen Select"  type="number" >
                 0
