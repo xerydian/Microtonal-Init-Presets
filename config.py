@@ -8,8 +8,8 @@ EDOs = [
 ]
 
 EDTs = [
-    26,  # Double Bohlen-Pierce
-    30,  # Stretched 19EDO
+    26, 39,  # extended Bohlen-Pierce
+    30,      # stretched 19EDO
 ]
 
 Carlos = [  # wendycarlos.com/resources/pitch.html
