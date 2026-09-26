@@ -21,7 +21,7 @@ uv run generate-presets
 This pack contains presets in:
 - 14edo, 15edo, 16edo, 17edo, 19edo, 22edo, 24edo, 27edo, 29edo,
 <br>31edo, 34edo, 36edo, 41edo, 43edo, 53edo
-- 26edt (double BP), 30edt (~19edo), 39edt (triple BP)
+- 26edt (double BP), 30edt (~19edo), 39edt (triple BP), 43edt (~27edo)
 - Wendy Carlos' Alpha, Beta & Gamma
 
 For the following Rack instruments:

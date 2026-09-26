@@ -9,7 +9,7 @@ EDOs = [
 
 EDTs = [
     26, 39,  # extended Bohlen-Pierce
-    30,      # stretched 19EDO
+    30, 43   # stretched 19EDO, compressed 27EDO
 ]
 
 Carlos = [  # wendycarlos.com/resources/pitch.html
