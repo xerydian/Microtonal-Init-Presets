@@ -30,7 +30,7 @@
                 0.5
             </Value>
             <Value property="Basic_KbdTracking"  type="number" >
-                0.5
+                0.7315211541789951
             </Value>
             <Value property="PartialModifier1"  type="number" >
                 0

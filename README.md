@@ -26,4 +26,5 @@ This pack contains presets in:
 
 For the following Rack instruments:
 - **Reason Studio**: Complex-1, Europa, Grain, Parsec, Polytone
-- **Third party**: Antidote, Arkana, BitSynthzr, MonoPoly, Nostromo, Spectra, VK-2 Synthesizer
+- **Third party**: Antidote, Arkana, Autosub, BitSynthzr, MonoPoly,
+Nostromo, Spectra, VK-2 Synthesizer
