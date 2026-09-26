@@ -84,7 +84,7 @@
                 0.5
             </Value>
             <Value property="VCF_KBD_TRACK"  type="number" >
-                0.2962962962962963
+                0.14814814814814814
             </Value>
             <Value property="MG_1_KEY_SYNC"  type="number" >
                 0

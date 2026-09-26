@@ -111,7 +111,7 @@
                 0
             </Value>
             <Value property="filterkeytrack"  type="number" >
-                0.7058823529411765
+                0.35294117647058826
             </Value>
             <Value property="fltenvatk"  type="number" >
                 0

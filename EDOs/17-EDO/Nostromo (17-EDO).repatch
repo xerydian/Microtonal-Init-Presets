@@ -420,7 +420,7 @@
                 0
             </Value>
             <Value property="filter_1_key_follow"  type="number" >
-                0.7058823529411765
+                0.35294117647058826
             </Value>
             <Value property="filter_1_level"  type="number" >
                 0.5
@@ -450,7 +450,7 @@
                 0
             </Value>
             <Value property="filter_2_key_follow"  type="number" >
-                0.7058823529411765
+                0.35294117647058826
             </Value>
             <Value property="filter_2_level"  type="number" >
                 0.5
@@ -1449,7 +1449,7 @@
                 0
             </Value>
             <Value property="filter_3_key_follow"  type="number" >
-                0.7058823529411765
+                0.35294117647058826
             </Value>
             <Value property="filter_3_level"  type="number" >
                 0.5
@@ -1473,7 +1473,7 @@
                 0
             </Value>
             <Value property="filter_4_key_follow"  type="number" >
-                0.7058823529411765
+                0.35294117647058826
             </Value>
             <Value property="filter_4_level"  type="number" >
                 0.5

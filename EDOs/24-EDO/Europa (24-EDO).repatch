@@ -247,7 +247,7 @@
                 0
             </Value>
             <Value property="Filter Kbd"  type="number" >
-                0.5
+                0.25
             </Value>
             <Value property="Filter Mod"  type="number" >
                 0

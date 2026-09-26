@@ -232,7 +232,7 @@
                 3
             </Value>
             <Value property="Filter Kbd"  type="number" >
-                0.351000351000351
+                0.1755001755001755
             </Value>
             <Value property="Filter Env2"  type="number" >
                 0

@@ -19,5 +19,6 @@ Carlos = [  # wendycarlos.com/resources/pitch.html
 ]
 
 SHOULD_KEYTRACK_FILTER = True
+HALVE_FILTER_KT = True
+
 SHOULD_KEYTRACK_EXTRA = False
-HALVE_FILTER_KT = False

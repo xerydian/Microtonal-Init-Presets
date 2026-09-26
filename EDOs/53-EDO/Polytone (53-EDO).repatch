@@ -144,10 +144,10 @@
                 1
             </Value>
             <Value property="Filter Kbd"  type="number" >
-                0.22641509433962265
+                0.11320754716981132
             </Value>
             <Value property="Filter Kbd B"  type="number" >
-                0.22641509433962265
+                0.11320754716981132
             </Value>
             <Value property="Filter Mod"  type="number" >
                 0.5

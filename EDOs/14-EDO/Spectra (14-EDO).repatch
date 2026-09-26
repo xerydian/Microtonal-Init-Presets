@@ -229,7 +229,7 @@
                 0
             </Value>
             <Value property="filteronetrackingamount"  type="number" >
-                0.7142857142857143
+                0.35714285714285715
             </Value>
             <Value property="filteroneenvamount"  type="number" >
                 0.5
@@ -256,7 +256,7 @@
                 0
             </Value>
             <Value property="filtertwotrackingamount"  type="number" >
-                0.7142857142857143
+                0.35714285714285715
             </Value>
             <Value property="filtertwoenvamount"  type="number" >
                 0.5
