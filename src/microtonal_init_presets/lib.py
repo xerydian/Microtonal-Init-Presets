@@ -10,10 +10,6 @@ if str(root_dir) not in sys.path:
 from config import HALVE_FILTER_KT, SHOULD_KEYTRACK_EXTRA, SHOULD_KEYTRACK_FILTER
 
 
-def make_dir(*args) -> None:
-    Path(*args).mkdir(parents=True, exist_ok=True)
-
-
 def if_keytrack_filter(keytrack, default = 0) -> float:
     if SHOULD_KEYTRACK_FILTER:
         return keytrack * (0.5 if HALVE_FILTER_KT else 1)

@@ -3,7 +3,7 @@ from pathlib import Path
 
 from jinja2 import Environment, FileSystemLoader
 
-from microtonal_init_presets.lib import TEMPATE_HELPERS, make_dir
+from microtonal_init_presets.lib import TEMPATE_HELPERS
 from config import Carlos, EDOs, EDTs
 
 _ = (EDOs, EDTs, Carlos)  # used in eval
@@ -23,10 +23,11 @@ def generate_tunings (
 ):
     for x in eval(tuning_group):
         tuning = tuning_f(x)
-        make_dir(tuning_group, tuning)
         for template in templates:
             filename = str(template.name).replace(".jinja", f" ({tuning}).repatch")
             filepath = Path(tuning_group) / tuning / filename
+            filepath.parent.mkdir(parents=True, exist_ok=True)
+
             with open(filepath, "w") as f:
                 repatch = template.render(
                     x = get_x(x), tracking = tracking(get_x(x)),
