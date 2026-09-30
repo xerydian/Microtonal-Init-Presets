@@ -4,9 +4,9 @@ from pathlib import Path
 from jinja2 import Environment, FileSystemLoader
 
 from microtonal_init_presets.lib import TEMPATE_HELPERS
-from config import Carlos, EDOs, EDTs
+from config import Carlos, EDOs, EDTs, ED6s
 
-_ = (EDOs, EDTs, Carlos)  # used in eval
+_ = (EDOs, EDTs, ED6s, Carlos)  # used in eval
 
 env = Environment(
     loader = FileSystemLoader("templates")
@@ -17,7 +17,7 @@ templates = list(map(
 
 
 def generate_tunings (
-    tuning_group,  tuning_f,  tracking,
+    tuning_group,  tuning_f,  harmonic = 2,
     get_x = lambda x: x,
     monopoly = lambda x: (8/x) - (1/6),
 ):
@@ -30,7 +30,8 @@ def generate_tunings (
 
             with open(filepath, "w") as f:
                 repatch = template.render(
-                    x = get_x(x), tracking = tracking(get_x(x)),
+                    x = get_x(x),
+                    tracking = (log2(harmonic) * 12 / get_x(x)),
                     monopoly = monopoly, **TEMPATE_HELPERS
                 )
                 f.write(repatch)
@@ -40,17 +41,21 @@ def main() -> None:
     generate_tunings (
         tuning_group = "EDOs",
         tuning_f = (lambda x: f"{x}-EDO"),
-        tracking = (lambda x: (12 / x)),
     )
     generate_tunings (
         tuning_group = "EDTs",
         tuning_f = (lambda x: f"{x}-EDT"),
-        tracking = (lambda x: log2(3) * 12 / x),
+        harmonic = 3,
         monopoly = (lambda x: log2(3) * (8 / x) - (1/6)),
+    )
+    generate_tunings (
+        tuning_group = "ED6s",
+        tuning_f = (lambda x: f"{x}-ED6"),
+        harmonic = 6,
+        monopoly = (lambda x: log2(6) * (8 / x) - (1/6)),
     )
     generate_tunings (
         tuning_group = "Carlos",
         tuning_f = (lambda t: t[0]),
         get_x = (lambda t: t[1]),
-        tracking = (lambda x: (12 / x)),
     )
