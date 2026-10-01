@@ -28,8 +28,8 @@ This pack contains presets in:
 
 For the following Rack instruments:
 - **Reason Studio**: Complex-1, Europa, Grain, Parsec, Polytone
-- **Third party**: Antidote, Arkana, Autosub, Blackpole Station, 
-BitSynthzr, DyingStar, MonoPoly, Nostromo, Spectra, Torsion, VK-2 Synthesizer
+- **Third party**: Antidote, Arkana, Autosub, Blackpole Station, BitSynthzr, 
+DyingStar, MonoPoly, Nostromo, Obsession, Spectra, Torsion, VK-2 Synthesizer
 
 
 ### Helpers
