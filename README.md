@@ -28,11 +28,14 @@ This pack contains presets in:
 
 For the following Rack instruments:
 - **Reason Studio**: Complex-1, Europa, Grain, Parsec, Polytone
-- **Third party**: Antidote, Arkana, Autosub, Blackpole Station, BitSynthzr, 
-DyingStar, MonoPoly, Nostromo, Obsession, Spectra, The Legend HZ, Torsion, VK-2 Synthesizer
+- **Synapse Audio**: Antidote, Obsession, The Legend HZ
+- **Lectric Panda**: Nostromo, Torsion
+- **Turn2on**: Blackpole Station, DyingStar
+- **And more**: Arkana, Autosub, BitSynthzr, MonoPoly, Noxious, Spectra, VK-2 Synthesizer
 
 
-### Helpers
+
+### CV Helpers
 
 Universally microtune (almost) any Rack instrument.
 <br>Requires: CV out, CV splitter, x2 Tinker instances, an instrument with Pitch Bend support.
