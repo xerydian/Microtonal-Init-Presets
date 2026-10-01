@@ -3,7 +3,7 @@ from pathlib import Path
 
 from jinja2 import Environment, FileSystemLoader
 
-from microtonal_init_presets.lib import TEMPATE_HELPERS
+from microtonal_init_presets.lib import TEMPLATE_HELPERS
 from config import Carlos, EDOs, EDTs, ED6s
 
 _ = (EDOs, EDTs, ED6s, Carlos)  # used in eval
@@ -32,7 +32,8 @@ def generate_tunings (
                 repatch = template.render(
                     x = get_x(x),
                     tracking = (log2(harmonic) * 12 / get_x(x)),
-                    monopoly = monopoly, **TEMPATE_HELPERS
+                    inv_tracking = get_x(x) / (log2(harmonic) * 12),  # avoid losing precision
+                    monopoly = monopoly, **TEMPLATE_HELPERS
                 )
                 f.write(repatch)
 

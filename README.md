@@ -30,3 +30,32 @@ For the following Rack instruments:
 - **Reason Studio**: Complex-1, Europa, Grain, Parsec, Polytone
 - **Third party**: Antidote, Arkana, Autosub, Blackpole Station, 
 BitSynthzr, DyingStar, MonoPoly, Nostromo, Spectra, Torsion, VK-2 Synthesizer
+
+
+### Helpers
+
+Universally microtune (almost) any Rack instrument.
+<br>Requires: CV out, CV splitter, x2 Tinker instances, an instrument with Pitch Bend support.
+<br>Example setup: 
+```
+Blamsoft Distributor
+  |--> Voice 1 --> CV splitter 
+  |                   |--> (In A) Tinker: Note (Result) --> (Note CV) Instrument #1
+  |                   |--> (In A) Tinker: Bend (Result) --> (Pitch Bend)
+  |--> Voice 2 (Optional) (Same setup)
+  |--> ...
+
+(Tweak the 'Number of Voices' parameter accordingly)
+```
+
+Note: Some devices don't expose a Pitch Bend CV jack but do accept Pitch Bend input, 
+<br>Place the  Combinator to achieve this
+- **One voice**: 
+  <br>CV Connections (Rear view)
+  <br>- Tinker: Bend (Result) --> Combinator (Wheel CV In) Pitch Bend
+- **Multiple voices**:
+  <br>CV Connections (Rear view)
+  <br>- Tinker: Bend (Result) --> Combinator CV1, or CV2, ..., CV8
+  <br>Editor mapping (Front view)
+  <br>- Source: CV In 1, or CV In 2, ..., CV In 8
+  <br>- Target: Pitch Bend
