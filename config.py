@@ -8,15 +8,16 @@ EDOs = [
 ]
 
 EDTs = [
+    22,      # stretched 14EDO
     26, 39,  # extended Bohlen-Pierce
     27, 54,  # stretched 17EDO, 34EDO
     30, 43   # stretched 19EDO, compressed 27EDO
 ]
 
-ED6s = [ # splits diff between oct and tritave
-    44, 88, # less stretched 17EDO, 34EDO
-    49, 70, # optimally stretched 19EDO, 43EDO
-    57,     # compressed 22EDO
+ED6s = [    # splits error between oct & tritave; closest to zpi
+    49,     # stretched 19EDO
+    44, 88, # compressed 17EDO, 34EDO
+    57, 70  # compressed 22EDO, 27EDO
 ]
 
 Carlos = [  # wendycarlos.com/resources/pitch.html
